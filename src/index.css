@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  /* Responsive typography */
+  h1 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-light tracking-wider mb-4 md:mb-6;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl font-light tracking-wide mb-3 md:mb-4;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl font-light tracking-wide mb-2 md:mb-3;
+  }
+
+  /* Improved link accessibility - only show focus ring when using keyboard */
+  a {
+    @apply transition-colors duration-300;
+  }
+
+  a:focus-visible {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2 rounded;
+  }
+
+  a:focus:not(:focus-visible) {
+    @apply outline-none ring-0;
+  }
+
+  /* Better image handling */
+  img {
+    @apply max-w-full h-auto;
+  }
+
+  /* Form elements */
+  input, select, textarea {
+    @apply w-full px-4 py-2 md:py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-base md:text-lg;
+  }
+
+  button {
+    @apply focus:outline-none;
+  }
+
+  button:focus-visible {
+    @apply ring-2 ring-blue-500 ring-offset-2;
+  }
+
+  button:focus:not(:focus-visible) {
+    @apply ring-0;
+  }
+}
+
+/* Utility classes */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+
+  .animate-fade-video {
+    animation: fadeVideo 2s ease-in-out infinite;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+
+  /* Improved card flipping */
+  .flip-card-front {
+    @apply absolute inset-0 bg-white rounded-lg p-4 md:p-8 flex flex-col items-center justify-center text-center shadow-lg border border-opacity-20 backface-hidden;
+  }
+
+  .flip-card-back {
+    @apply absolute inset-0 p-4 md:p-8 rounded-lg shadow-lg [transform:rotateY(180deg)] backface-hidden flex items-center justify-center text-center;
+  }
+
+  .backface-hidden {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .flip-transition {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .group:hover .flip-transition {
+    transform: rotateY(180deg);
+  }
+
+  /* Container padding */
+  .container-padding {
+    @apply px-4 md:px-6 lg:px-8;
+  }
+
+  /* Responsive spacing */
+  .section-spacing {
+    @apply py-12 md:py-16 lg:py-24;
+  }
+
+  /* Grid layouts */
+  .responsive-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-lg shadow-lg p-4 md:p-6 lg:p-8;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeVideo {
+  0%, 100% {
+    opacity: 0.95;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Mobile menu improvements */
+.mobile-menu {
+  @apply fixed inset-0 bg-black bg-opacity-50 z-50;
+}
+
+.mobile-menu-content {
+  @apply fixed inset-y-0 right-0 w-[80%] max-w-sm bg-white shadow-xl overflow-y-auto;
+}
+
+/* Responsive images */
+.responsive-image {
+  @apply w-full h-full object-cover;
+}
+
+/* Better touch targets */
+.touch-target {
+  @apply min-h-[44px] min-w-[44px];
+}
+
+/* Improved form layout */
+.form-group {
+  @apply space-y-2 md:space-y-3;
+}
+
+.form-label {
+  @apply block text-sm md:text-base font-medium text-gray-700;
+}
+
+/* Responsive buttons */
+.btn {
+  @apply px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-medium rounded-lg transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+}
+
+/* Improved navigation */
+.nav-link {
+  @apply px-3 py-2 text-sm md:text-base font-medium rounded-lg transition-colors duration-300;
+}
+
+/* Better spacing for stacked elements */
+.stack > * + * {
+  @apply mt-4 md:mt-6;
+}

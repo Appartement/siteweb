@@ -1,0 +1,787 @@
+{
+  "nav": {
+    "about": "QUI SOMMES-NOUS",
+    "services": "SERVICES",
+    "properties": "BIENS",
+    "projects": "PROJETS",
+    "contact": "CONTACT"
+  },
+  "servicesMenu": {
+    "transaction": "Immobilier",
+    "renovation": "Rénovation",
+    "management": "Gestion"
+  },
+  "home": {
+    "moreAboutAdvice": "En savoir plus sur nos services de conseil",
+    "advantagesTitle": "NOS AVANTAGES",
+    "expertiseTitle": "EXPERTISE",
+    "expertiseDescription": "Une équipe de professionnels expérimentés pour vous accompagner dans tous vos projets immobiliers.",
+    "performanceTitle": "PERFORMANCE",
+    "performanceDescription": "Des solutions optimisées pour maximiser la rentabilité de vos investissements.",
+    "peaceTitle": "TRANQUILLITÉ",
+    "peaceDescription": "Une gestion clé en main de vos biens immobiliers pour votre tranquillité d'esprit.",
+    "toolsTitle": "NOS OUTILS",
+    "adviceTitle": "CONSEIL & INFORMATION",
+    "fiscal": {
+      "title": "AVANTAGES FISCAUX",
+      "items": {
+        "goldenVisa": {
+          "title": "Programme Golden Visa",
+          "details": "Investissement minimum de 500 000€ dans l'immobilier. Permet d'obtenir un permis de résidence pour vous et votre famille, avec accès à l'espace Schengen."
+        },
+        "rnh": {
+          "title": "Statut Résident Non Habituel (RNH)",
+          "details": "Régime fiscal avantageux pendant 10 ans, avec un taux fixe de 20% sur certains revenus et des exonérations sur des revenus étrangers spécifiques."
+        },
+        "patrimonial": {
+          "title": "Avantages patrimoniaux",
+          "details": "Avantages fiscaux attractifs sur la transmission du patrimoine, grâce à des conventions fiscales avantageuses et une planification successorale optimisée."
+        },
+        "optimization": {
+          "title": "Optimisation fiscale",
+          "details": "Stratégies personnalisées pour optimiser votre fiscalité et maximiser vos retours sur investissement."
+        }
+      }
+    },
+    "legal": {
+      "title": "QUESTIONS JURIDIQUES",
+      "items": {
+        "purchaseProcess": {
+          "title": "Processus d'achat de bien",
+          "details": "Guide étape par étape pour l'achat d'un bien, incluant les vérifications juridiques, le rôle du notaire et les délais attendus."
+        },
+        "documents": {
+          "title": "Documents nécessaires",
+          "details": "Liste des documents essentiels tels que le NIF, les justificatifs de revenus, les coordonnées bancaires et une pièce d'identité requise pour l'achat."
+        },
+        "rights": {
+          "title": "Droits et obligations",
+          "details": "Présentation des droits et obligations liés à la propriété, incluant les responsabilités fiscales, les obligations d'entretien et les règles de copropriété."
+        },
+        "contracts": {
+          "title": "Contrats et garanties",
+          "details": "Explication des différents types de contrats, des garanties légales fournies, et des clauses clés pour protéger l'acheteur."
+        }
+      }
+    },
+    "practical": {
+      "title": "CONSEILS PRATIQUES",
+      "items": {
+        "residentsGuide": {
+          "title": "Guide pour les résidents",
+          "details": "Guide détaillé pour les résidents couvrant les démarches administratives, le système de santé, l'éducation et les options de transport."
+        },
+        "nonResidents": {
+          "title": "Informations pour non-résidents",
+          "details": "Informations pour les non-résidents sur la gestion de leur bien depuis l'étranger, incluant les obligations déclaratives et les solutions de gestion à distance."
+        },
+        "adminSteps": {
+          "title": "Démarches administratives",
+          "details": "Procédures administratives étape par étape, telles que l'inscription consulaire, l'obtention d'un permis de conduire et les obligations fiscales locales."
+        },
+        "dailyLife": {
+          "title": "Vie quotidienne au Portugal",
+          "details": "Perspectives sur la vie quotidienne au Portugal, incluant le coût de la vie, les quartiers recommandés et les activités culturelles."
+        }
+      }
+    }
+  },
+  "hero": {
+    "title": "IMMOBILIER 360",
+    "subtitle": "Transaction • Rénovation • Gestion",
+    "cta": {
+      "contact": "NOUS CONTACTER",
+      "projects": "NOS PROJETS"
+    }
+  },
+  "stats": {
+    "title": "NOS CHIFFRES CLÉS",
+    "experience": "Années d'expérience",
+    "properties": "Biens vendus",
+    "clients": "Clients satisfaits",
+    "managed": "Biens sous gestion",
+    "partners": "Partenaires"
+  },
+  "services_section": {
+    "title": "NOS SERVICES",
+    "cta": "Découvrir tous nos services",
+    "transaction": {
+      "title": "IMMOBILIER",
+      "items": [
+        "Achat et vente de biens",
+        "Estimation détaillée de votre bien",
+        "Accompagnement personnalisé",
+        "Négociation optimale"
+      ]
+    },
+    "renovation": {
+      "title": "RÉNOVATION",
+      "items": [
+        "Rénovation complète",
+        "Optimisation d'espace",
+        "Suivi de chantier",
+        "Design d'intérieur"
+      ]
+    },
+    "management": {
+      "title": "GESTION",
+      "items": [
+        "Gestion locative",
+        "Maintenance",
+        "Conciergerie",
+        "Reporting mensuel"
+      ]
+    }
+  },
+  "properties": {
+    "title": "BIENS À LA UNE",
+    "heroSubtitle": "Découvrez nos biens à la vente et à la location",
+    "monthly": "Mois",
+    "all": "Tous les types",
+    "for_sale": "À vendre",
+    "for_rent": "À louer",
+    "sort": {
+      "price_asc": "Prix croissant",
+      "price_desc": "Prix décroissant",
+      "area_asc": "Surface croissante",
+      "area_desc": "Surface décroissante"
+    },
+    "search": "Rechercher par lieu...",
+    "results": "bien trouvé",
+    "results_plural": "biens trouvés",
+    "details": "Détails",
+    "simulationTools": "Outils de simulation",
+    "features": {
+      "bedrooms": "Chambres",
+      "bathrooms": "Salles de bain",
+      "area": "Surface"
+    }
+  },
+  "projects": {
+    "heroTitle": "NOS PROJETS",
+    "heroSubtitle": "Découvrez nos plus belles réalisations en immobilier, rénovation et gestion",
+    "learnMore": "En savoir plus",
+    "testimonialsTitle": "ILS NOUS FONT CONFIANCE"
+  },
+  "projectDetails": {
+    "loading": "Chargement...",
+    "notFound": "Bien non trouvé",
+    "backToProjects": "Retour aux biens",
+    "forSale": "À vendre",
+    "forRent": "À louer",
+    "bedrooms": "Chambres",
+    "bathrooms": "Salles de bain",
+    "area": "Surface",
+    "description": "Description",
+    "challengeTitle": "LE DÉFI",
+    "solutionTitle": "NOTRE SOLUTION",
+    "resultsTitle": "RÉSULTATS",
+    "galleryTitle": "GALERIE PHOTOS",
+    "image": "Image",
+    "ctaTitle": "DÉMARREZ VOTRE PROJET",
+    "ctaSubtitle": "Vous avez un projet similaire ? Contactez-nous pour en discuter et découvrir comment nous pouvons vous accompagner.",
+    "ctaButton": "CONTACTER L'AGENCE",
+    "errorFetch": "Erreur lors de la récupération du bien",
+    "features": "Caractéristiques",
+    "backToProperties": "Retour aux biens"
+  },
+  "contact": {
+    "title": "NOUS CONTACTER",
+    "form": {
+      "project_type": "TYPE DE PROJET",
+      "name": "NOM COMPLET",
+      "email": "EMAIL",
+      "phone": "TÉLÉPHONE",
+      "message": "MESSAGE",
+      "subject": "SUJET",
+      "send": "ENVOYER",
+      "options": {
+        "autre": "Autres",
+        "immobilier": "Transaction",
+        "renovation": "Rénovation",
+        "gestion": "Gestion"
+      }
+    }
+  },
+  "calculator": {
+    "title": "Calculateur de Crédit Immobilier",
+    "subtitle": "Estimez vos mensualités de remboursement en quelques clics",
+    "loanAmountLabel": "Montant du prêt (€)",
+    "durationLabel": "Durée (années)",
+    "interestRateLabel": "Taux d'intérêt annuel (%)",
+    "calculateButton": "Calculer",
+    "estimatedMonthlyPayment": "Mensualité estimée",
+    "placeholderLoan": "Ex: 200000",
+    "placeholderDuration": "Ex: 20",
+    "placeholderInterest": "Ex: 3.5"
+  },
+  "imtCalculator": {
+    "title": "Calculateur IMT",
+    "subtitle": "Estimez l'Impôt Municipal sur les Transmissions de biens immobiliers en quelques clics",
+    "loanAmountLabel": "Valeur du bien (€)",
+    "propertyTypeLabel": "Type de bien",
+    "buyerTypeLabel": "Statut de l'acheteur",
+    "durationLabel": "Durée (années)",
+    "interestRateLabel": "Taux d'intérêt annuel (%)",
+    "calculateButton": "Calculer",
+    "estimatedPaymentLabel": "IMT total",
+    "placeholderLoan": "Ex : 200000",
+    "placeholderDuration": "Ex : 20",
+    "placeholderInterest": "Ex : 3.5",
+    "detailsLabel": "Détail par tranche :",
+    "trancheLabel": "Tranche",
+    "fixedRate": "Taux fixe 6,5%",
+    "note": "* Cette estimation est donnée à titre indicatif. Des tranches progressives s'appliquent pour les résidences principales, et un taux fixe pour les autres biens. Consultez un professionnel pour un calcul précis.",
+    "propertyType": {
+      "residential": "Résidence principale",
+      "secondary": "Résidence secondaire",
+      "commercial": "Local commercial"
+    },
+    "buyerType": {
+      "resident": "Résident",
+      "nonResident": "Non-résident"
+    }
+  },
+  "services": {
+    "heroTitle": "NOS SERVICES",
+    "heroSubtitle": "Solution immobilier 360° : Rénovation, Construction, Gestion Locative, Transaction",
+    "description": "Des solutions sur mesure adaptées à vos projets, envies et budget. Notre expertise couvre l'ensemble de vos besoins immobiliers, de la recherche de bien à la gestion locative, en passant par la rénovation et la décoration.",
+    "transaction": {
+      "title": "IMMOBILIER",
+      "description": "Service complet pour l'immobilier au Portugal : recherche, négociation et sécurisation.",
+      "items": [
+        "Recherche personnalisée",
+        "Négociation optimale",
+        "Accompagnement juridique",
+        "Sécurisation des transactions"
+      ]
+    },
+    "renovation": {
+      "title": "RÉNOVATION",
+      "description": "Service clé en main pour la rénovation et la décoration, incluant la planification et la supervision des travaux.",
+      "items": [
+        "Gestion complète des travaux",
+        "Design d'intérieur personnalisé",
+        "Respect des délais et du budget",
+        "Suivi qualité rigoureux"
+      ]
+    },
+    "management": {
+      "title": "GESTION",
+      "description": "Gestion locative complète garantissant un taux d'occupation optimal et un retour sur investissement sécurisé.",
+      "items": [
+        "Gestion des locataires",
+        "Suivi des loyers",
+        "Gestion administrative",
+        "Maintenance régulière"
+      ]
+    },
+    "matterport": {
+      "title": "VISITE VIRTUELLE INTERACTIVE",
+      "stats": [
+        "Difficulté à visualiser sur photos",
+        "Acheteurs qualifiés",
+        "Interactions en ligne",
+        "Taux d'engagement"
+      ],
+      "info": {
+        "title": "Disponible sous 24h !",
+        "description": "Offrez une expérience immersive et réaliste avec la technologie Matterport. Explorez votre espace en 3D à 360°, visualisez des plans d'étage mesurés, et découvrez chaque détail grâce aux photos HDR.",
+        "cta": "Demander une visite virtuelle"
+      }
+    },
+    "characteristics": {
+      "intuitiveNavigation": {
+        "title": "Navigation intuitive",
+        "description": "Explorez l'espace comme si vous y étiez",
+        "backDescription": "Navigation fluide entre les points de vue et visite guidée automatique pour une immersion totale"
+      },
+      "full3DView": {
+        "title": "Vue 3D complète",
+        "description": "Vision globale de l'espace",
+        "backDescription": "Modèle 3D interactif pour comprendre instantanément l'agencement et les volumes"
+      },
+      "measuredPlans": {
+        "title": "Plans mesurés",
+        "description": "Dimensions précises",
+        "backDescription": "Plans détaillés avec mesures exactes pour vos projets d'aménagement"
+      },
+      "hdPhotos": {
+        "title": "Photos HD",
+        "description": "Qualité professionnelle",
+        "backDescription": "Images haute définition capturant chaque détail de votre bien"
+      }
+    },
+    "ctaTitle": "DÉMARREZ VOTRE PROJET",
+    "ctaDescription": "Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous accompagner.",
+    "ctaButton": "Nous contacter"
+  },
+  "servicesPage": {
+    "transaction": {
+      "heroTitle": "SERVICE TRANSACTION IMMOBILIÈRE",
+      "heroSubtitle": "Un accompagnement personnalisé pour vos projets d'achat et de vente au Portugal",
+      "missionDescription": "Notre équipe d'experts en immobilier vous accompagne à chaque étape de votre projet, de la recherche initiale jusqu'à la signature finale. Nous mettons à profit notre connaissance approfondie du marché portugais et notre réseau de partenaires qualifiés.",
+      "sectionTitle": "NOS SERVICES IMMOBILIERS",
+      "buy": {
+        "title": "ACHAT",
+        "subtitle": "Trouvez votre bien",
+        "items": [
+          "Recherche personnalisée",
+          "Visites ciblées",
+          "Négociation optimale",
+          "Accompagnement juridique"
+        ]
+      },
+      "sell": {
+        "title": "VENTE",
+        "subtitle": "Valorisez votre bien",
+        "items": [
+          "Estimation gratuite",
+          "Photos professionnelles",
+          "Marketing ciblé",
+          "Sélection des acquéreurs"
+        ]
+      },
+      "rent": {
+        "title": "LOCATION",
+        "subtitle": "Louez en toute confiance",
+        "items": [
+          "Gestion locative",
+          "Sélection des locataires",
+          "Suivi des loyers",
+          "Maintenance"
+        ]
+      },
+      "invest": {
+        "title": "INVESTISSEMENT",
+        "subtitle": "Optimisez votre capital",
+        "items": [
+          "Analyse de rentabilité",
+          "Assistance Golden Visa",
+          "Conseil fiscal",
+          "Gestion patrimoniale"
+        ]
+      },
+      "forSellersTitle": "POUR LES VENDEURS",
+      "forSellers": {
+        "items": [
+          "Estimation détaillée basée sur une analyse approfondie du marché local",
+          "Reportage photos professionnel et visite virtuelle immersive",
+          "Diffusion ciblée sur des plateformes premium et notre réseau international",
+          "Sélection rigoureuse des acquéreurs et vérification financière"
+        ]
+      },
+      "forBuyersTitle": "POUR LES ACHETEURS",
+      "forBuyers": {
+        "items": [
+          "Analyse approfondie de votre projet et définition précise des critères",
+          "Accès exclusif à notre portefeuille et aux offres en avant-première",
+          "Accompagnement dans les démarches de financement au Portugal",
+          "Conseil juridique et fiscal personnalisé avec nos experts"
+        ]
+      }
+    },
+    "additional": {
+      "title": "SERVICES COMPLÉMENTAIRES",
+      "virtualTour": {
+        "title": "VISITE VIRTUELLE",
+        "description": "Technologie Matterport pour une expérience immersive à 360°, idéale pour les acheteurs internationaux et la présentation professionnelle de votre bien."
+      },
+      "taxOptimization": {
+        "title": "OPTIMISATION FISCALE",
+        "description": "Conseil personnalisé pour optimiser votre investissement immobilier au Portugal, avec accompagnement dans les démarches fiscales et administratives."
+      },
+      "guarantees": {
+        "title": "GARANTIES",
+        "description": "Protection complète de votre transaction grâce à nos garanties exclusives et notre réseau de partenaires juridiques."
+      }
+    },
+    "ctaTitle": "DÉMARREZ VOTRE PROJET",
+    "ctaDescription": "Contactez-nous pour discuter de votre projet immobilier au Portugal et découvrir comment nous pouvons vous accompagner.",
+    "ctaButton": "CONTACTER L'AGENCE"
+  },
+  "serviceRenovation": {
+    "heroTitle": "SERVICE RÉNOVATION",
+    "heroSubtitle": "Transformez votre bien immobilier avec notre expertise en rénovation et design d'intérieur",
+    "missionDescription": "Notre équipe d'experts en rénovation vous accompagne dans la transformation complète de votre bien, de la conception à la réalisation. Nous gérons l'intégralité du projet pour vous garantir un résultat à la hauteur de vos attentes.",
+    "sectionTitle": "NOTRE MISSION",
+    "standards": {
+      "title": "STANDARDS",
+      "subtitle": "Qualité garantie",
+      "backItems": [
+        "Normes strictes",
+        "Matériaux premium",
+        "Finitions soignées",
+        "Contrôle qualité"
+      ]
+    },
+    "design": {
+      "title": "DESIGN",
+      "subtitle": "Sur mesure",
+      "backItems": [
+        "Conception unique",
+        "Plans détaillés",
+        "Choix de matériaux",
+        "Personnalisation"
+      ]
+    },
+    "management": {
+      "title": "GESTION",
+      "subtitle": "Suivi complet",
+      "backItems": [
+        "Planning détaillé",
+        "Suivi chantier",
+        "Coordination",
+        "Reporting"
+      ]
+    },
+    "delivery": {
+      "title": "LIVRAISON",
+      "subtitle": "Clé en main",
+      "backItems": [
+        "Contrôle final",
+        "Nettoyage",
+        "Documentation",
+        "Garanties"
+      ]
+    },
+    "completeRenovation": {
+      "title": "RÉNOVATION COMPLÈTE",
+      "items": [
+        "Restructuration complète des espaces et optimisation des volumes",
+        "Mise aux normes : électricité, plomberie, isolation",
+        "Rénovation des sols, murs et plafonds avec matériaux premium",
+        "Installation de cuisines et salles de bain haut de gamme"
+      ]
+    },
+    "interiorDesign": {
+      "title": "DESIGN D'INTÉRIEUR",
+      "items": [
+        "Étude personnalisée des espaces et de vos besoins",
+        "Création d'ambiances sur mesure et planches tendances",
+        "Design et fabrication de mobilier sur mesure",
+        "Conception d'éclairage architectural"
+      ]
+    },
+    "additional": {
+      "title": "SERVICES COMPLÉMENTAIRES",
+      "customDesign": {
+        "title": "DESIGN PERSONNALISÉ",
+        "description": "Création d'espaces uniques adaptés à votre style de vie et vos préférences. Solutions esthétiques et fonctionnelles sur mesure."
+      },
+      "projectManagement": {
+        "title": "GESTION DE PROJET",
+        "description": "Coordination complète des travaux, respect des délais et du budget. Un seul interlocuteur pour plus de simplicité."
+      },
+      "optimization": {
+        "title": "OPTIMISATION",
+        "description": "Maximisation de la valeur de votre bien grâce à des solutions innovantes et une expertise pointue du marché local."
+      }
+    },
+    "cta": {
+      "title": "DÉMARREZ VOTRE PROJET",
+      "description": "Contactez-nous pour discuter de votre projet de rénovation et découvrir comment nous pouvons transformer votre espace en un lieu unique qui vous ressemble.",
+      "button": "Nous contacter"
+    }
+  },
+  "serviceGestion": {
+    "heroTitle": "SERVICE GESTION",
+    "heroSubtitle": "Une gestion locative complète pour optimiser votre investissement immobilier",
+    "missionDescription": "Notre service de gestion locative vous assure une tranquillité totale dans la gestion de votre bien. Nous prenons en charge l'ensemble des aspects administratifs, techniques et relationnels pour optimiser votre investissement.",
+    "sectionTitle": "NOTRE MISSION",
+    "tenant": {
+      "title": "LOCATAIRES",
+      "subtitle": "Sélection rigoureuse",
+      "backItems": [
+        "Recherche active",
+        "Vérification des dossiers",
+        "Visites organisées",
+        "Sélection optimale"
+      ]
+    },
+    "rent": {
+      "title": "LOYERS",
+      "subtitle": "Suivi rigoureux",
+      "backItems": [
+        "Encaissement",
+        "Relances",
+        "Comptabilité",
+        "Reporting"
+      ]
+    },
+    "technical": {
+      "title": "TECHNIQUE",
+      "subtitle": "Maintenance professionnelle",
+      "backItems": [
+        "Visites régulières",
+        "Entretien préventif",
+        "Réparations",
+        "Urgences 24/7"
+      ]
+    },
+    "departure": {
+      "title": "DÉPART",
+      "subtitle": "Transition fluide",
+      "backItems": [
+        "État des lieux",
+        "Dépôt de garantie",
+        "Remise en état",
+        "Restitution"
+      ]
+    },
+    "details": {
+      "managementTitle": "GESTION LOCATIVE",
+      "managementItems": [
+        "Recherche et sélection rigoureuse des locataires",
+        "Gestion complète des loyers et des charges",
+        "Suivi des assurances et renouvellement des garanties",
+        "Optimisation fiscale et comptabilité détaillée"
+      ],
+      "technicalTitle": "SUIVI TECHNIQUE",
+      "technicalItems": [
+        "Visites techniques régulières du bien",
+        "Maintenance préventive et entretien régulier",
+        "Intervention d'urgence 24/7 et suivi des réparations",
+        "Coordination avec des artisans qualifiés"
+      ]
+    },
+    "additional": {
+      "advantagesTitle": "NOS AVANTAGES",
+      "security": {
+        "title": "SÉCURITÉ",
+        "description": "Protection complète de votre investissement grâce à nos garanties exclusives et un processus de sélection rigoureux des locataires."
+      },
+      "profitability": {
+        "title": "RENTABILITÉ",
+        "description": "Optimisation continue de votre rendement locatif grâce à notre expertise du marché et nos outils de gestion performants."
+      },
+      "support": {
+        "title": "ACCOMPAGNEMENT",
+        "description": "Un interlocuteur dédié pour une relation de confiance et un suivi personnalisé de votre investissement."
+      }
+    },
+    "cta": {
+      "title": "CONFIEZ-NOUS VOTRE BIEN",
+      "description": "Découvrez nos formules de gestion locative adaptées à vos besoins et profitez d'une gestion professionnelle et sans souci de votre investissement immobilier au Portugal.",
+      "button": "Nous contacter"
+    }
+  },
+  "footer": {
+    "brand": "L'APPARTEMENT",
+    "tagline": "Excellence immobilière et innovation durable à Lisbonne",
+    "studio": {
+      "title": "STUDIO",
+      "items": [
+        {
+          "label": "Notre Vision",
+          "link": "/vision"
+        },
+        {
+          "label": "L'Équipe",
+          "link": "/equipe"
+        },
+        {
+          "label": "Carrières",
+          "link": "/carrieres"
+        },
+        {
+          "label": "Actualités",
+          "link": "/actualites"
+        }
+      ]
+    },
+    "services": {
+      "title": "SERVICES",
+      "items": [
+        {
+          "label": "Immobilier",
+          "link": "/services/transaction"
+        },
+        {
+          "label": "Rénovation",
+          "link": "/services/renovation"
+        },
+        {
+          "label": "Gestion",
+          "link": "/services/gestion"
+        }
+      ]
+    },
+    "navigation": {
+      "title": "NAVIGATION",
+      "about": "Qui sommes-nous",
+      "properties": "Biens",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "CONTACT",
+      "address": "Rua do Sol ao Rato 69B, Lisbonne, Portugal"
+    },
+    "legal": {
+      "title": "LÉGAL",
+      "mentions": "Mentions légales",
+      "privacy": "Politique de confidentialité"
+    },
+    "rights": "Tous droits réservés.",
+    "designedWith": "Conçu avec passion par",
+    "designer": "GOSITE-WEB"
+  },
+  "about": {
+    "heroTitle": "QUI SOMMES-NOUS",
+    "heroSubtitle": "Une équipe passionnée au service de vos projets immobiliers depuis 2020",
+    "imageAlt": "L'équipe de L'Appartement en réunion, discutant des projets immobiliers à Lisbonne",
+    "historyTitle": "NOTRE HISTOIRE",
+    "historyPeriod": "Depuis 2020",
+    "historyText1": "L'Appartement, le concept-ateliers autour de l'habitat, est né en 2020 de la vision commune de Laure et Jean-Emmanuel. En s'installant au Portugal, ils ont rencontré plusieurs défis quant au choix, à la rénovation et à l'aménagement de leur logement.",
+    "historyText2": "Partant de ce constat, ils ont naturellement décidé d'unir leurs expertises pour proposer un service unique, permettant aux futurs porteurs de projet de se lancer sereinement, avec l'avantage d'avoir un interlocuteur unique.",
+    "historyText3": "Notre mission est d'offrir un accompagnement clé en main et personnalisé, adapté à la taille et aux besoins spécifiques de chaque projet. Cette approche globale nous permet de simplifier vos démarches tout en garantissant un suivi optimal de votre projet.",
+    "stats": {
+      "satisfiedClients": "Clients satisfaits",
+      "transactions": "Transactions",
+      "yearsExperience": "Années d'expérience"
+    },
+    "foundersTitle": "NOS FONDATEURS",
+    "founderLaure": {
+      "name": "Laure Fargeot",
+      "role": "Co-Fondateur",
+      "description": "Cheffe de projet à Lisbonne, je réalise vos projets sur mesure. Experte en design et rénovation, je m'appuie sur un réseau de confiance pour vous accompagner à chaque étape, que ce soit pour un investissement personnel ou locatif.",
+      "email": "laure.fargeot@lappartement.pt",
+      "alt": "Laure Fargeot - Co-Fondateur de L'Appartement, experte en immobilier et rénovation à Lisbonne"
+    },
+    "founderJean": {
+      "name": "Jean-Emmanuel Salvado",
+      "role": "Co-Fondateur",
+      "description": "Directeur commercial d'origine portugaise, j'allie expertise immobilière et approche personnalisée. Fort de mon expérience, j'accompagne nos clients dans leur recherche, le conseil administratif et juridique, avec un suivi sur mesure.",
+      "email": "je.salvado@lappartement.pt",
+      "alt": "Jean-Emmanuel Salvado - Co-Fondateur de L'Appartement, expert en transaction immobilière à Lisbonne"
+    },
+    "foundersQuote": "« La satisfaction de nos clients est notre priorité absolue, et nous sommes fiers de la confiance que vous nous accordez. Vous n'êtes pas simplement un client parmi d'autres, vous êtes une personne aux objectifs et aux rêves uniques. Parce que nous vous comprenons, nous nous engageons à faire en sorte que votre parcours vers la propriété au Portugal soit fluide et serein. »",
+    "foundersSignature": "Laure et Jean-Emmanuel, co-fondateurs de L'Appartement",
+    "testimonialsTitle": "CE QUE DISENT NOS CLIENTS",
+    "testimonial1": {
+      "content": "« Service exceptionnel de A à Z ! L'équipe nous a accompagnés dans l'achat et la rénovation complète de notre appartement à Lisbonne. Leur expertise du marché local et leur réseau d'artisans qualifiés ont fait toute la différence. Le résultat dépasse nos attentes. »",
+      "author": "Sophie & Pierre",
+      "location": "Chiado, Lisbonne"
+    },
+    "testimonial2": {
+      "content": "« Un grand merci à Laure et Jean-Emmanuel pour leur professionnalisme et leur réactivité. Ils ont géré notre investissement locatif de A à Z avec une efficacité remarquable. Les rapports mensuels détaillés nous permettent de suivre notre investissement en toute sérénité. »",
+      "author": "Marc & Julie",
+      "location": "Principe Real, Lisbonne"
+    },
+    "testimonial3": {
+      "content": "« Une équipe à l'écoute et ultra professionnelle. Leur connaissance approfondie du marché immobilier lisboète nous a permis de trouver la perle rare en un temps record. La rénovation a été menée de main de maître, dans les délais et le budget prévus. »",
+      "author": "Laurent & Marie",
+      "location": "Lapa, Lisbonne"
+    },
+    "contactTitle": "NOUS TROUVER",
+    "contact": {
+      "addressTitle": "ADRESSE",
+      "address": "Rua do Sol ao Rato 69B, Lisbonne, Portugal",
+      "phoneTitle": "TÉLÉPHONE",
+      "emailTitle": "EMAIL",
+      "email": "adm@lappartement.pt",
+      "hoursTitle": "HORAIRES",
+      "hours": "Lundi - Vendredi : 9h00 - 19h00\nSamedi : 10h00 - 17h00\nDimanche : Fermé"
+    }
+  },
+  "legalNotices": {
+    "title": "Mentions Légales",
+    "lastUpdate": "Dernière mise à jour : {{date}}",
+    "legalInformationTitle": "Informations Légales",
+    "legalInformation": {
+      "companyName": "Raison sociale :",
+      "legalForm": "Forme juridique :",
+      "shareCapital": "Capital social :",
+      "headOffice": "Siège social :",
+      "registrationNumber": "Numéro d'immatriculation :",
+      "vatNumber": "Numéro de TVA :",
+      "amiLicense": "Licence AMI :"
+    },
+    "publicationDirectionTitle": "Direction de la publication",
+    "publicationDirection": "Directeurs de la publication : Laure Fargeot et Jean-Emmanuel Salvado",
+    "contactInfo": "Pour toute question concernant le site et son contenu, veuillez nous contacter à : ",
+    "hostingTitle": "Hébergement",
+    "hosting": "Ce site est hébergé par Netlify, Inc.\n44 Montgomery Street, Suite 300\nSan Francisco, California 94104\nÉtats-Unis",
+    "intellectualPropertyTitle": "Propriété intellectuelle",
+    "intellectualProperty1": "L'ensemble du contenu de ce site est soumis aux lois portugaises et internationales sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations visuelles.",
+    "intellectualProperty2": "La reproduction totale ou partielle de ce site sur un support électronique est strictement interdite sans autorisation expresse du directeur de la publication.",
+    "hyperlinksTitle": "Liens hypertextes",
+    "hyperlinks1": "Le site lappartement.pt peut contenir des liens hypertextes vers d'autres sites sur Internet. Ces liens vous feront quitter lappartement.pt.",
+    "hyperlinks2": "Il est possible de créer un lien vers la page de présentation de ce site sans autorisation expresse. Aucune autorisation préalable ou demande d'information ne peut être exigée par l'éditeur pour un site souhaitant établir un lien vers le site de l'éditeur.",
+    "disclaimerTitle": "Responsabilité",
+    "disclaimer1": "Les informations fournies sur ce site sont données à titre indicatif. L'exactitude, la complétude et l'actualité des informations ne peuvent être garanties. Les informations peuvent être modifiées sans préavis.",
+    "disclaimer2": "L'Appartement ne pourra être tenu responsable des dommages directs ou indirects résultant de l'accès au site et/ou de l'utilisation des informations fournies."
+  },
+  "privacyPolicy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdate": "Dernière mise à jour : {{date}}",
+    "introductionTitle": "Introduction",
+    "introductionText": "L'Appartement (« nous », « notre », « nos ») s'engage à protéger votre vie privée. Cette politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons vos données personnelles conformément au Règlement Général sur la Protection des Données (RGPD).",
+    "dataCollectionTitle": "Données que nous collectons",
+    "dataCollectionText": "Nous collectons les données suivantes :",
+    "dataCollectionItems": [
+      "Données d'identification : nom, prénom, adresse email, numéro de téléphone",
+      "Données de communication : messages, correspondances, préférences de contact",
+      "Données techniques : adresse IP, type de navigateur, appareil utilisé",
+      "Cookies : données de navigation et préférences (voir notre politique de cookies)"
+    ],
+    "useOfDataTitle": "Utilisation de vos données",
+    "useOfDataText": "Nous utilisons vos données pour :",
+    "useOfDataItems": [
+      "Répondre à vos demandes d'information",
+      "Gérer votre dossier client et vos projets immobiliers",
+      "Personnaliser votre expérience sur notre site",
+      "Vous envoyer des communications marketing (avec votre consentement)",
+      "Améliorer nos services et notre site web",
+      "Respecter nos obligations légales"
+    ],
+    "legalBasisTitle": "Base légale du traitement",
+    "legalBasisText": "Nous traitons vos données sur les bases légales suivantes :",
+    "legalBasisItems": [
+      "Consentement : pour l'envoi de communications marketing",
+      "Exécution du contrat : pour la gestion de vos projets immobiliers",
+      "Obligation légale : pour respecter la réglementation immobilière",
+      "Intérêt légitime : pour améliorer nos services"
+    ],
+    "dataRetentionTitle": "Conservation des données",
+    "dataRetentionText": "Nous conservons vos données personnelles aussi longtemps que nécessaire pour :",
+    "dataRetentionItems": [
+      "La durée de notre relation commerciale",
+      "Les délais légaux de conservation",
+      "La résolution d'éventuels litiges"
+    ],
+    "yourRightsTitle": "Vos droits",
+    "yourRightsText": "Conformément au RGPD, vous disposez des droits suivants :",
+    "yourRightsItems": [
+      "Droit d'accès à vos données personnelles",
+      "Droit de rectification des données inexactes",
+      "Droit à l'effacement (« droit à l'oubli »)",
+      "Droit à la limitation du traitement",
+      "Droit à la portabilité des données",
+      "Droit d'opposition au traitement",
+      "Droit de retirer votre consentement"
+    ],
+    "contactForRights": "Pour exercer ces droits, contactez-nous à",
+    "dataSecurityTitle": "Sécurité des données",
+    "dataSecurityText": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données, notamment :",
+    "dataSecurityItems": [
+      "Chiffrement des données sensibles",
+      "Accès restreint aux données personnelles",
+      "Formation régulière de notre personnel",
+      "Audits de sécurité réguliers"
+    ],
+    "dataTransfersTitle": "Transferts de données",
+    "dataTransfersText": "Vos données sont principalement traitées au Portugal et dans l'Union Européenne. Si nous devons transférer vos données hors de l'UE, nous nous assurons que des garanties appropriées sont en place conformément au RGPD.",
+    "policyChangesTitle": "Modifications de la politique",
+    "policyChangesText": "Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Les modifications entrent en vigueur dès leur publication sur notre site. Nous vous informerons des changements importants par email ou via notre site.",
+    "contactTitle": "Contact",
+    "contactText": "Pour toute question concernant cette politique ou vos données personnelles, contactez notre Délégué à la Protection des Données :",
+    "contactDetails": {
+      "company": "L'Appartement",
+      "address": "Rua do Sol ao Rato 69B, 1250-261 Lisboa, Portugal",
+      "emailPrefix": "Email :",
+      "phonePrefix": "Téléphone :"
+    }
+  }
+}

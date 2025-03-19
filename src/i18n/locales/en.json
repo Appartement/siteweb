@@ -1,0 +1,839 @@
+{
+  "nav": {
+    "about": "ABOUT US",
+    "services": "SERVICES",
+    "properties": "PROPERTIES",
+    "projects": "PROJECTS",
+    "contact": "CONTACT"
+  },
+  "servicesMenu": {
+    "transaction": "Real Estate",
+    "renovation": "Renovation",
+    "management": "Management"
+  },
+  "home": {
+    "moreAboutAdvice": "Learn more about our advisory services",
+    "advantagesTitle": "OUR ADVANTAGES",
+    "expertiseTitle": "EXPERTISE",
+    "expertiseDescription": "A team of experienced professionals to support all your real estate projects.",
+    "performanceTitle": "PERFORMANCE",
+    "performanceDescription": "Optimized solutions to maximize the profitability of your investments.",
+    "peaceTitle": "PEACE OF MIND",
+    "peaceDescription": "Turnkey management of your properties for your peace of mind.",
+    "toolsTitle": "OUR TOOLS",
+    "adviceTitle": "ADVICE & INFORMATION",
+    "fiscal": {
+      "title": "FISCAL ADVANTAGES",
+      "items": {
+        "goldenVisa": {
+          "title": "Golden Visa Program",
+          "details": "Minimum investment of €500,000 in real estate. Grants a residence permit for you and your family and provides access to the Schengen area."
+        },
+        "rnh": {
+          "title": "Non-Habitual Resident (NHR)",
+          "details": "Favorable tax regime for 10 years, with a fixed tax rate of 20% on eligible income and exemptions on certain foreign income."
+        },
+        "patrimonial": {
+          "title": "Asset Benefits",
+          "details": "Attractive benefits on asset transmission, with favorable tax treaties and optimized estate planning."
+        },
+        "optimization": {
+          "title": "Tax Optimization",
+          "details": "Tailored strategies to optimize your tax burden and maximize your returns."
+        }
+      }
+    },
+    "legal": {
+      "title": "LEGAL ISSUES",
+      "items": {
+        "purchaseProcess": {
+          "title": "Property Purchase Process",
+          "details": "Step-by-step guide for purchasing a property, including legal checks, the role of the notary, and expected timelines."
+        },
+        "documents": {
+          "title": "Required Documents",
+          "details": "Essential documents such as tax identification (NIF), income proof, bank account details, and identification documents required for the property purchase."
+        },
+        "rights": {
+          "title": "Rights and Obligations",
+          "details": "Overview of property rights and obligations, including tax responsibilities, maintenance duties, and co-ownership rules."
+        },
+        "contracts": {
+          "title": "Contracts and Guarantees",
+          "details": "Explanation of the various types of contracts, the legal guarantees provided, and key clauses to protect the buyer."
+        }
+      }
+    },
+    "practical": {
+      "title": "PRACTICAL TIPS",
+      "items": {
+        "residentsGuide": {
+          "title": "Guide for Residents",
+          "details": "A detailed guide for residents covering administrative procedures, healthcare, education, and transportation options."
+        },
+        "nonResidents": {
+          "title": "Non-Resident Information",
+          "details": "Information for non-residents on managing property from abroad, including reporting obligations and remote management solutions."
+        },
+        "adminSteps": {
+          "title": "Administrative Procedures",
+          "details": "Step-by-step administrative procedures, such as consular registration, obtaining a driving license, and local tax obligations."
+        },
+        "dailyLife": {
+          "title": "Daily Life in Portugal",
+          "details": "Insights into daily life in Portugal, including cost of living, recommended neighborhoods, and cultural activities."
+        }
+      }
+    }
+  },
+  "hero": {
+    "title": "360° REAL ESTATE",
+    "subtitle": "Real Estate • Renovation • Management",
+    "cta": {
+      "contact": "CONTACT US",
+      "projects": "OUR PROJECTS"
+    }
+  },
+  "stats": {
+    "title": "OUR KEY FIGURES",
+    "experience": "Years of experience",
+    "properties": "Properties sold",
+    "clients": "Satisfied clients",
+    "managed": "Properties under management",
+    "partners": "Partners"
+  },
+  "services_section": {
+    "title": "OUR SERVICES",
+    "cta": "Discover all our services",
+    "transactionDescription": "Complete service for real estate in Portugal: search, negotiation, and securing.",
+    "renovationDescription": "Turnkey service for renovation and decoration of your properties. We oversee all works from design to execution.",
+    "managementDescription": "Optimized property management for secure returns. We handle tenant selection and complete administrative follow-up.",
+    "transactionItems": [
+      "Personalized search",
+      "Optimal negotiation",
+      "Legal support",
+      "Transaction security"
+    ],
+    "renovationItems": [
+      "Work supervision",
+      "Customized design",
+      "On-time delivery",
+      "Rigorous quality control"
+    ],
+    "managementItems": [
+      "Tenant management",
+      "Rent collection",
+      "Administrative management",
+      "Regular maintenance"
+    ],
+    "transaction": {
+      "title": "REAL ESTATE",
+      "items": [
+        "Property purchase and sale",
+        "Free valuation",
+        "Personalized support",
+        "Optimal negotiation"
+      ]
+    },
+    "renovation": {
+      "title": "RENOVATION",
+      "items": [
+        "Complete renovation",
+        "Space optimization",
+        "Project management",
+        "Interior design"
+      ]
+    },
+    "management": {
+      "title": "MANAGEMENT",
+      "items": [
+        "Property management",
+        "Maintenance",
+        "Concierge service",
+        "Monthly reporting"
+      ]
+    }
+  },
+  "serviceRenovation": {
+    "heroTitle": "RENOVATION SERVICE",
+    "heroSubtitle": "Transform your property with our expertise in renovation and interior design",
+    "missionDescription": "Our team of renovation experts guides you through the complete transformation of your property, from design to execution. We manage the entire project to ensure a result that meets your expectations.",
+    "sectionTitle": "OUR MISSION",
+    "standards": {
+      "title": "STANDARDS",
+      "subtitle": "Guaranteed Quality",
+      "backItems": [
+        "Strict standards",
+        "Premium materials",
+        "Meticulous finishes",
+        "Quality control"
+      ]
+    },
+    "design": {
+      "title": "DESIGN",
+      "subtitle": "Custom-made",
+      "backItems": [
+        "Unique design",
+        "Detailed plans",
+        "Material selection",
+        "Customization"
+      ]
+    },
+    "management": {
+      "title": "MANAGEMENT",
+      "subtitle": "Comprehensive Monitoring",
+      "backItems": [
+        "Detailed planning",
+        "Site supervision",
+        "Coordination",
+        "Reporting"
+      ]
+    },
+    "delivery": {
+      "title": "DELIVERY",
+      "subtitle": "Turnkey",
+      "backItems": [
+        "Final inspection",
+        "Cleaning",
+        "Documentation",
+        "Guarantees"
+      ]
+    },
+    "completeRenovation": {
+      "title": "COMPLETE RENOVATION",
+      "items": [
+        "Complete restructuring and volume optimization",
+        "Upgrades: electricity, plumbing, insulation",
+        "Renovation of floors, walls, and ceilings with premium materials",
+        "Installation of high-end kitchens and bathrooms"
+      ]
+    },
+    "interiorDesign": {
+      "title": "INTERIOR DESIGN",
+      "items": [
+        "Customized study of spaces and needs",
+        "Creation of bespoke ambiances and mood boards",
+        "Design and production of custom furniture",
+        "Architectural lighting design"
+      ]
+    },
+    "additional": {
+      "title": "ADDITIONAL SERVICES",
+      "customDesign": {
+        "title": "CUSTOM DESIGN",
+        "description": "Creation of unique spaces tailored to your lifestyle and preferences. Bespoke aesthetic and functional solutions."
+      },
+      "projectManagement": {
+        "title": "PROJECT MANAGEMENT",
+        "description": "Complete coordination of works, ensuring deadlines and budgets are met. A single point of contact for simplicity."
+      },
+      "optimization": {
+        "title": "OPTIMIZATION",
+        "description": "Maximizing your property's value with innovative solutions and expert local market knowledge."
+      }
+    },
+    "cta": {
+      "title": "START YOUR PROJECT",
+      "description": "Contact us to discuss your renovation project and discover how we can transform your space into a unique place that reflects you.",
+      "button": "Contact Us"
+    }
+  },
+  "serviceGestion": {
+    "heroTitle": "PROPERTY MANAGEMENT SERVICE",
+    "heroSubtitle": "Comprehensive property management to optimize your real estate investment",
+    "missionDescription": "Our property management service ensures complete peace of mind in managing your property. We handle all administrative, technical, and relational aspects to optimize your investment.",
+    "sectionTitle": "OUR MISSION",
+    "tenant": {
+      "title": "TENANTS",
+      "subtitle": "Rigorous selection",
+      "backItems": [
+        "Active search",
+        "File verification",
+        "Organized visits",
+        "Optimal selection"
+      ]
+    },
+    "rent": {
+      "title": "RENT",
+      "subtitle": "Rigorous monitoring",
+      "backItems": [
+        "Collection",
+        "Reminders",
+        "Accounting",
+        "Reporting"
+      ]
+    },
+    "technical": {
+      "title": "TECHNICAL",
+      "subtitle": "Professional maintenance",
+      "backItems": [
+        "Regular visits",
+        "Preventive maintenance",
+        "Repairs",
+        "24/7 emergencies"
+      ]
+    },
+    "departure": {
+      "title": "DEPARTURE",
+      "subtitle": "Smooth transition",
+      "backItems": [
+        "Property condition report",
+        "Security deposit",
+        "Restoration",
+        "Restitution"
+      ]
+    },
+    "details": {
+      "managementTitle": "PROPERTY MANAGEMENT",
+      "managementItems": [
+        "Rigorous tenant search and selection",
+        "Complete management of rents and charges",
+        "Insurance monitoring and guarantee renewal",
+        "Tax optimization and detailed accounting"
+      ],
+      "technicalTitle": "TECHNICAL FOLLOW-UP",
+      "technicalItems": [
+        "Regular technical visits",
+        "Preventive maintenance and upkeep",
+        "24/7 emergency intervention and repair follow-up",
+        "Coordination with qualified craftsmen"
+      ]
+    },
+    "additional": {
+      "advantagesTitle": "OUR ADVANTAGES",
+      "security": {
+        "title": "SECURITY",
+        "description": "Complete protection of your investment with our exclusive guarantees and rigorous tenant selection process."
+      },
+      "profitability": {
+        "title": "PROFITABILITY",
+        "description": "Continuous optimization of your rental yield through our market expertise and efficient management tools."
+      },
+      "support": {
+        "title": "SUPPORT",
+        "description": "A dedicated point of contact for a trusted relationship and personalized follow-up of your investment."
+      }
+    },
+    "cta": {
+      "title": "TRUST US WITH YOUR PROPERTY",
+      "description": "Discover our property management packages tailored to your needs and enjoy professional, worry-free management of your real estate investment in Portugal.",
+      "button": "Contact Us"
+    }
+  },
+  "properties": {
+    "title": "FEATURED PROPERTIES",
+    "heroSubtitle": "Discover our selection of properties for sale and rent",
+    "monthly": "Monthly",
+    "all": "All types",
+    "for_sale": "For sale",
+    "for_rent": "For rent",
+    "sort": {
+      "price_asc": "Price ascending",
+      "price_desc": "Price descending",
+      "area_asc": "Area ascending",
+      "area_desc": "Area descending"
+    },
+    "search": "Search by location...",
+    "results": "property found",
+    "results_plural": "properties found",
+    "simulationTools": "Simulation Tools",
+    "details": "Details",
+    "features": {
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Full bathrooms",
+      "area": "Area (sqm)"
+    }
+  },
+  "projects": {
+    "heroTitle": "OUR PROJECTS",
+    "heroSubtitle": "Discover our finest successes in real estate, renovation, and management",
+    "learnMore": "Learn more",
+    "testimonialsTitle": "THEY TRUST US"
+  },
+  "projectDetails": {
+    "loading": "Loading...",
+    "notFound": "Property not found",
+    "backToProjects": "Back to properties",
+    "forSale": "For sale",
+    "forRent": "For rent",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Area",
+    "description": "Description",
+    "challengeTitle": "THE CHALLENGE",
+    "solutionTitle": "OUR SOLUTION",
+    "resultsTitle": "RESULTS",
+    "galleryTitle": "PHOTO GALLERY",
+    "image": "Image",
+    "ctaTitle": "START YOUR PROJECT",
+    "ctaSubtitle": "Have a similar project? Contact us to discuss and discover how we can support you in achieving it.",
+    "ctaButton": "CONTACT US",
+    "errorFetch": "Error fetching the property",
+    "features": "Features",
+    "backToProperties": "Back to properties"
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "subtitle": "Let's discuss your project",
+    "titleSection": "Contact us",
+    "descriptionSection": "We are at your disposal to answer your questions and help you with your real estate project.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "SEND",
+      "success": "Message sent successfully",
+      "error": "An error occurred. Please try again.",
+      "options": {
+        "autre": "Other",
+        "immobilier": " Transaction",
+        "renovation": "Renovation",
+        "gestion": "Management"
+      }
+    }
+  },
+  "footer": {
+    "brand": "L'APPARTEMENT",
+    "tagline": "Real estate excellence and sustainable innovation in Lisbon",
+    "studio": {
+      "title": "STUDIO",
+      "items": [
+        "Our Vision",
+        "The Team",
+        "Careers",
+        "News"
+      ]
+    },
+    "services": {
+      "title": "SERVICES",
+      "items": [
+        "Real Estate",
+        "Renovation",
+        "Management",
+        "Consulting"
+      ]
+    },
+    "contact": {
+      "title": "CONTACT",
+      "address": "Rua do Sol ao Rato 69B, Lisbon, Portugal"
+    },
+    "rights": "All rights reserved."
+  },
+  "calculator": {
+    "title": "Mortgage Calculator",
+    "subtitle": "Estimate your monthly repayments in just a few clicks",
+    "loanAmountLabel": "Loan Amount (€)",
+    "durationLabel": "Duration (years)",
+    "interestRateLabel": "Annual Interest Rate (%)",
+    "calculateButton": "Calculate",
+    "estimatedMonthlyPayment": "Estimated Monthly Payment",
+    "placeholderLoan": "E.g.: 200000",
+    "placeholderDuration": "E.g.: 20",
+    "placeholderInterest": "E.g.: 3.5"
+  },
+  "imtCalculator": {
+    "title": "IMT Calculator",
+    "subtitle": "Estimate the Municipal Property Transfer Tax in a few clicks",
+    "loanAmountLabel": "Property Value (€)",
+    "propertyTypeLabel": "Property Type",
+    "buyerTypeLabel": "Buyer Status",
+    "durationLabel": "Duration (years)",
+    "interestRateLabel": "Annual Interest Rate (%)",
+    "calculateButton": "Calculate",
+    "estimatedPaymentLabel": "Total IMT",
+    "placeholderLoan": "E.g.: 200000",
+    "placeholderDuration": "E.g.: 20",
+    "placeholderInterest": "E.g.: 3.5",
+    "detailsLabel": "Breakdown by tranche:",
+    "trancheLabel": "Tranche",
+    "fixedRate": "Fixed rate 6.5%",
+    "note": "* This estimate is for informational purposes only. Progressive rates apply for primary residences, and a fixed rate applies for other properties. Consult a professional for an accurate calculation.",
+    "propertyType": {
+      "residential": "Primary Residence",
+      "secondary": "Secondary Residence",
+      "commercial": "Commercial Property"
+    },
+    "buyerType": {
+      "resident": "Resident",
+      "nonResident": "Non-resident"
+    }
+  },
+  "services": {
+    "heroTitle": "OUR SERVICES",
+    "heroSubtitle": "360° real estate solution: Renovation, Construction, Property Management, Transaction",
+    "description": "Tailor-made solutions adapted to your projects, desires, and budget. Our expertise covers all your real estate needs, from property search to property management, including renovation and decoration.",
+    "transaction": {
+      "title": "REAL ESTATE",
+      "description": "Comprehensive service for real estate in Portugal: search, negotiation, and securing.",
+      "items": [
+        "Personalized search",
+        "Optimal negotiation",
+        "Legal support",
+        "Transaction security"
+      ]
+    },
+    "renovation": {
+      "title": "RENOVATION",
+      "description": "Turnkey service for renovation and decoration, including planning and supervision of works.",
+      "items": [
+        "Complete work management",
+        "Customized interior design",
+        "On-time delivery and budget adherence",
+        "Rigorous quality control"
+      ]
+    },
+    "management": {
+      "title": "MANAGEMENT",
+      "description": "Complete property management ensuring optimal occupancy and secure ROI.",
+      "items": [
+        "Tenant management",
+        "Rent tracking",
+        "Administrative management",
+        "Regular maintenance"
+      ]
+    },
+    "matterport": {
+      "title": "INTERACTIVE VIRTUAL TOUR",
+      "stats": [
+        "Difficulty visualizing in photos",
+        "Qualified buyers",
+        "Online interactions",
+        "Engagement rate"
+      ],
+      "info": {
+        "title": "Available within 24h!",
+        "description": "Offer an immersive and realistic experience with Matterport technology. Explore your space in 3D 360°, view measured floor plans, and discover every detail with HDR photos.",
+        "cta": "Request a virtual tour"
+      }
+    },
+    "characteristics": {
+      "intuitiveNavigation": {
+        "title": "Intuitive Navigation",
+        "description": "Explore the space as if you were there",
+        "backDescription": "Smooth navigation between viewpoints and automatic guided tour for total immersion"
+      },
+      "full3DView": {
+        "title": "Complete 3D View",
+        "description": "Overall view of the space",
+        "backDescription": "Interactive 3D model for instant understanding of layout and volumes"
+      },
+      "measuredPlans": {
+        "title": "Measured Plans",
+        "description": "Precise dimensions",
+        "backDescription": "Detailed floor plans with exact measurements for your layout projects"
+      },
+      "hdPhotos": {
+        "title": "HD Photos",
+        "description": "Professional quality",
+        "backDescription": "High-definition images capturing every detail of your property"
+      }
+    },
+    "ctaTitle": "START YOUR PROJECT",
+    "ctaDescription": "Contact us to discuss your project and discover how we can support you.",
+    "ctaButton": "Contact Us"
+  },
+  "servicesPage": {
+    "transaction": {
+      "heroTitle": "REAL ESTATE TRANSACTION SERVICE",
+      "heroSubtitle": "Personalized support for your property buying and selling projects in Portugal",
+      "missionDescription": "Our team of real estate experts guides you through every stage of your project, from the initial search to the final signing. We leverage our in-depth knowledge of the Portuguese market and our network of qualified partners.",
+      "sectionTitle": "OUR REAL ESTATE SERVICES",
+      "buy": {
+        "title": "BUY",
+        "subtitle": "Find your property",
+        "items": [
+          "Personalized search",
+          "Targeted viewings",
+          "Optimal negotiation",
+          "Legal support"
+        ]
+      },
+      "sell": {
+        "title": "SELL",
+        "subtitle": "Enhance your property value",
+        "items": [
+          "Free valuation",
+          "Professional photoshoot",
+          "Targeted marketing",
+          "Pre-qualified buyers"
+        ]
+      },
+      "rent": {
+        "title": "RENT",
+        "subtitle": "Rent with confidence",
+        "items": [
+          "Property management",
+          "Tenant selection",
+          "Rent monitoring",
+          "Maintenance"
+        ]
+      },
+      "invest": {
+        "title": "INVESTMENT",
+        "subtitle": "Optimize your capital",
+        "items": [
+          "Profitability analysis",
+          "Golden Visa assistance",
+          "Tax advisory",
+          "Asset management"
+        ]
+      },
+      "forSellersTitle": "FOR SELLERS",
+      "forSellers": {
+        "items": [
+          "Detailed valuation based on thorough local market analysis",
+          "Professional photoshoot and immersive virtual tour",
+          "Targeted diffusion on premium platforms and our international network",
+          "Rigorous buyer selection and financial verification"
+        ]
+      },
+      "forBuyersTitle": "FOR BUYERS",
+      "forBuyers": {
+        "items": [
+          "In-depth analysis of your project and precise criteria definition",
+          "Exclusive access to our portfolio and early offers",
+          "Assistance with financing procedures in Portugal",
+          "Personalized legal and fiscal advice from our experts"
+        ]
+      }
+    },
+    "additional": {
+      "title": "ADDITIONAL SERVICES",
+      "virtualTour": {
+        "title": "VIRTUAL TOUR",
+        "description": "Matterport technology for an immersive 360° experience, ideal for international buyers and professional property presentations."
+      },
+      "taxOptimization": {
+        "title": "TAX OPTIMIZATION",
+        "description": "Tailored advice to optimize your real estate investment in Portugal, with support in fiscal and administrative procedures."
+      },
+      "guarantees": {
+        "title": "GUARANTEES",
+        "description": "Comprehensive transaction protection with our exclusive guarantees and legal partner network."
+      }
+    },
+    "ctaTitle": "START YOUR PROJECT",
+    "ctaDescription": "Contact us to discuss your real estate project in Portugal and discover how we can support you.",
+    "ctaButton": "CONTACT US"
+  },
+  "footer": {
+    "brand": "L'APPARTEMENT",
+    "tagline": "Real estate excellence and sustainable innovation in Lisbon",
+    "studio": {
+      "title": "STUDIO",
+      "items": [
+        {
+          "label": "Our Vision",
+          "link": "/vision"
+        },
+        {
+          "label": "The Team",
+          "link": "/team"
+        },
+        {
+          "label": "Careers",
+          "link": "/careers"
+        },
+        {
+          "label": "News",
+          "link": "/news"
+        }
+      ]
+    },
+    "services": {
+      "title": "SERVICES",
+      "items": [
+        {
+          "label": "Real Estate",
+          "link": "/services/transaction"
+        },
+        {
+          "label": "Renovation",
+          "link": "/services/renovation"
+        },
+        {
+          "label": "Management",
+          "link": "/services/gestion"
+        }
+      ]
+    },
+    "navigation": {
+      "title": "NAVIGATION",
+      "about": "About Us",
+      "properties": "Properties",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "CONTACT",
+      "address": "Rua do Sol ao Rato 69B, Lisbon, Portugal"
+    },
+    "legal": {
+      "title": "LEGAL",
+      "mentions": "Legal Notice",
+      "privacy": "Privacy Policy"
+    },
+    "rights": "All rights reserved.",
+    "designedWith": "Designed with passion by",
+    "designer": "GOSITE-WEB"
+  },
+  "about": {
+    "heroTitle": "ABOUT US",
+    "heroSubtitle": "A passionate team serving your real estate projects since 2020",
+    "imageAlt": "The L'Appartement team in a meeting discussing real estate projects in Lisbon",
+    "historyTitle": "OUR HISTORY",
+    "historyPeriod": "Since 2020",
+    "historyText1": "L'Appartement, the concept-workshop around living spaces, was born in 2020 from the shared vision of Laure and Jean-Emmanuel. Upon moving to Portugal, they faced several challenges regarding the choice, renovation, and design of their home.",
+    "historyText2": "Based on this observation, they naturally decided to combine their expertise to offer a unique service, enabling future project leaders to embark with confidence, with the advantage of having a single point of contact.",
+    "historyText3": "Our mission is to provide a turnkey, personalized service tailored to the scale and specific needs of each project. This comprehensive approach allows us to simplify your processes while ensuring optimal project support.",
+    "stats": {
+      "satisfiedClients": "Satisfied Clients",
+      "transactions": "Transactions",
+      "yearsExperience": "Years of Experience"
+    },
+    "foundersTitle": "OUR FOUNDERS",
+    "founderLaure": {
+      "name": "Laure Fargeot",
+      "role": "Co-Founder",
+      "description": "Project manager in Lisbon, I deliver tailor-made projects. An expert in design and renovation, I rely on a trusted network to support you at every stage, whether it is a personal or rental investment.",
+      "email": "laure.fargeot@lappartement.pt",
+      "alt": "Laure Fargeot - Co-Founder of L'Appartement, expert in real estate and renovation in Lisbon"
+    },
+    "founderJean": {
+      "name": "Jean-Emmanuel Salvado",
+      "role": "Co-Founder",
+      "description": "Commercial Director of Portuguese origin, I combine real estate expertise with a personalized approach. With my experience, I assist our clients in their search, administrative and legal advice, with tailor-made support.",
+      "email": "je.salvado@lappartement.pt",
+      "alt": "Jean-Emmanuel Salvado - Co-Founder of L'Appartement, expert in real estate transactions in Lisbon"
+    },
+    "foundersQuote": "“The satisfaction of our clients is our utmost priority, and we are proud of the trust you place in us. You are not just another client; you are an individual with unique goals and dreams. Because we understand you, we commit to making your journey to property ownership in Portugal smooth and serene.”",
+    "foundersSignature": "Laure and Jean-Emmanuel, co-founders of L'Appartement",
+    "testimonialsTitle": "WHAT OUR CLIENTS SAY",
+    "testimonial1": {
+      "content": "“Exceptional service from A to Z! The team guided us through the purchase and complete renovation of our apartment in Lisbon. Their local market expertise and network of qualified craftsmen made all the difference. The result exceeded our expectations.”",
+      "author": "Sophie & Pierre",
+      "location": "Chiado, Lisbon"
+    },
+    "testimonial2": {
+      "content": "“A huge thank you to Laure and Jean-Emmanuel for their professionalism and responsiveness. They managed our rental investment from start to finish with remarkable efficiency. The detailed monthly reports allow us to monitor our investment with complete peace of mind.”",
+      "author": "Marc & Julie",
+      "location": "Principe Real, Lisbon"
+    },
+    "testimonial3": {
+      "content": "“A team that listens and is extremely professional. Their in-depth knowledge of the Lisbon real estate market enabled us to find the perfect property in record time. The renovation was carried out to perfection, within the agreed deadlines and budget.”",
+      "author": "Laurent & Marie",
+      "location": "Lapa, Lisbon"
+    },
+    "contactTitle": "FIND US",
+    "contact": {
+      "addressTitle": "ADDRESS",
+      "address": "Rua do Sol ao Rato 69B, Lisbon, Portugal",
+      "phoneTitle": "PHONE",
+      "emailTitle": "EMAIL",
+      "email": "adm@lappartement.pt",
+      "hoursTitle": "HOURS",
+      "hours": "Monday - Friday: 9:00 - 19:00\nSaturday: 10:00 - 17:00\nSunday: Closed"
+    }
+  },
+  "legalNotices": {
+    "title": "Legal Notices",
+    "lastUpdate": "Last updated: {{date}}",
+    "legalInformationTitle": "Legal Information",
+    "legalInformation": {
+      "companyName": "Company Name:",
+      "legalForm": "Legal Form:",
+      "shareCapital": "Share Capital:",
+      "headOffice": "Head Office:",
+      "registrationNumber": "Registration Number:",
+      "vatNumber": "VAT Number:",
+      "amiLicense": "AMI License:"
+    },
+    "publicationDirectionTitle": "Publication Direction",
+    "publicationDirection": "Publication Directors: Laure Fargeot and Jean-Emmanuel Salvado",
+    "contactInfo": "For any inquiries regarding the website and its content, please contact: ",
+    "hostingTitle": "Hosting",
+    "hosting": "This website is hosted by Netlify, Inc.\n44 Montgomery Street, Suite 300\nSan Francisco, California 94104\nUnited States",
+    "intellectualPropertyTitle": "Intellectual Property",
+    "intellectualProperty1": "All content on this site is subject to Portuguese and international copyright and intellectual property laws. All reproduction rights are reserved, including for downloadable documents and visual representations.",
+    "intellectualProperty2": "Reproduction of all or part of this site on any electronic medium is strictly prohibited without express permission from the publication director.",
+    "hyperlinksTitle": "Hyperlinks",
+    "hyperlinks1": "The lappartement.pt website may contain hyperlinks to other sites on the Internet. These links will take you away from lappartement.pt.",
+    "hyperlinks2": "It is possible to create a link to this website’s presentation page without express permission. No prior authorization or information request may be required from the publisher regarding a site wishing to link to the publisher's site.",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimer1": "The information provided on this site is for informational purposes only. The accuracy, completeness, and currency of the information cannot be guaranteed. Information may change without notice.",
+    "disclaimer2": "L'Appartement cannot be held liable for any direct or indirect damages resulting from access to the site and/or the use of the provided information."
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdate": "Last updated: {{date}}",
+    "introductionTitle": "Introduction",
+    "introductionText": "L'Appartement (\"we\", \"our\", \"us\") is committed to protecting your privacy. This privacy policy explains how we collect, use, share, and protect your personal data in accordance with the General Data Protection Regulation (GDPR).",
+    "dataCollectionTitle": "Data We Collect",
+    "dataCollectionText": "We collect the following data:",
+    "dataCollectionItems": [
+      "Identification data: name, surname, email address, phone number",
+      "Communication data: messages, correspondence, contact preferences",
+      "Technical data: IP address, browser type, device used",
+      "Cookies: browsing data and preferences (see our cookie policy)"
+    ],
+    "useOfDataTitle": "How We Use Your Data",
+    "useOfDataText": "We use your data to:",
+    "useOfDataItems": [
+      "Respond to your inquiries",
+      "Manage your client file and real estate projects",
+      "Personalize your experience on our site",
+      "Send you marketing communications (with your consent)",
+      "Improve our services and website",
+      "Comply with legal obligations"
+    ],
+    "legalBasisTitle": "Legal Basis for Processing",
+    "legalBasisText": "We process your data on the following legal bases:",
+    "legalBasisItems": [
+      "Consent: for sending marketing communications",
+      "Contract performance: for managing your real estate projects",
+      "Legal obligation: to comply with real estate regulations",
+      "Legitimate interest: to improve our services"
+    ],
+    "dataRetentionTitle": "Data Retention",
+    "dataRetentionText": "We retain your personal data for as long as necessary for:",
+    "dataRetentionItems": [
+      "The duration of our business relationship",
+      "Legal retention periods",
+      "The resolution of any disputes"
+    ],
+    "yourRightsTitle": "Your Rights",
+    "yourRightsText": "In accordance with the GDPR, you have the following rights:",
+    "yourRightsItems": [
+      "Right to access your personal data",
+      "Right to correct inaccurate data",
+      "Right to erasure (right to be forgotten)",
+      "Right to restrict processing",
+      "Right to data portability",
+      "Right to object to processing",
+      "Right to withdraw consent"
+    ],
+    "contactForRights": "To exercise these rights, please contact us at",
+    "dataSecurityTitle": "Data Security",
+    "dataSecurityText": "We implement appropriate technical and organizational measures to protect your data, including:",
+    "dataSecurityItems": [
+      "Encryption of sensitive data",
+      "Restricted access to personal data",
+      "Regular staff training",
+      "Regular security audits"
+    ],
+    "dataTransfersTitle": "Data Transfers",
+    "dataTransfersText": "Your data is processed primarily in Portugal and the EU. If we transfer your data outside the EU, we ensure appropriate safeguards are in place in accordance with the GDPR.",
+    "policyChangesTitle": "Changes to This Policy",
+    "policyChangesText": "We reserve the right to modify this privacy policy at any time. Changes take effect immediately upon publication on our site. We will notify you of significant changes via email or on our website.",
+    "contactTitle": "Contact",
+    "contactText": "For any questions regarding this policy or your personal data, please contact our Data Protection Officer:",
+    "contactDetails": {
+      "company": "L'Appartement",
+      "address": "Rua do Sol ao Rato 69B, 1250-261 Lisboa, Portugal",
+      "emailPrefix": "Email:",
+      "phonePrefix": "Phone:"
+    }
+  }
+}
