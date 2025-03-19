@@ -152,7 +152,7 @@ const ProjectDetails = () => {
       </div>
 
       {/* Hero Section */}
-      <div className="relative h-[50vh] overflow-hidden">
+      <div className="relative h-[30vh] overflow-hidden">
         <ProjectCarousel
           images={galleryImages}
           title={localize("title")}
