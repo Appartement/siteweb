@@ -21,7 +21,7 @@ const Services = () => {
             <div className="flex-shrink-0">
               <Home className="h-12 w-12 text-gray-900 mx-auto mb-6 group-hover:text-blue-600 transition-colors duration-500 group-hover:scale-110 transform" />
               <h3 className="text-xl font-light tracking-wide mb-4 group-hover:text-blue-600 transition-colors duration-500">
-                {t("services.transaction")}
+                {t("services.transaction.title")}
               </h3>
             </div>
             <p className="text-gray-600 font-light mb-8 flex-grow text-center">
