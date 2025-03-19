@@ -120,7 +120,7 @@ const PropertyDetails = () => {
   };
 
   return (
-    <div className="bg-white pt-28">
+    <div className="bg-white pt-36">
       {/* Navigation */}
       <div className="max-w-7xl mx-auto px-4 mb-8">
         <button
