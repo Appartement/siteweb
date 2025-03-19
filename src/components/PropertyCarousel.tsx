@@ -1,20 +1,27 @@
-import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface PropertyCarouselProps {
   images: string[];
   title: string;
 }
 
-const PropertyCarousel: React.FC<PropertyCarouselProps> = ({ images, title }) => {
+const PropertyCarousel: React.FC<PropertyCarouselProps> = ({
+  images,
+  title,
+}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const nextSlide = () => {
+  const nextSlide = (e) => {
+    e.stopPropagation();
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  const prevSlide = (e) => {
+    e.stopPropagation();
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+    );
   };
 
   const goToSlide = (index: number) => {
@@ -28,17 +35,21 @@ const PropertyCarousel: React.FC<PropertyCarouselProps> = ({ images, title }) =>
           <div
             key={index}
             className={`absolute inset-0 transition-opacity duration-500 ${
-              index === currentIndex ? 'opacity-100' : 'opacity-0'
+              index === currentIndex ? "opacity-100" : "opacity-0"
             }`}
           >
             <img
               src={image}
               alt={`${title} - ${
-                index === 0 ? "Vue principale du bien immobilier" :
-                index === 1 ? "Vue détaillée de l'intérieur" :
-                index === 2 ? "Vue des espaces de vie" :
-                index === 3 ? "Vue des aménagements" :
-                "Vue complémentaire du bien"
+                index === 0
+                  ? "Vue principale du bien immobilier"
+                  : index === 1
+                  ? "Vue détaillée de l'intérieur"
+                  : index === 2
+                  ? "Vue des espaces de vie"
+                  : index === 3
+                  ? "Vue des aménagements"
+                  : "Vue complémentaire du bien"
               }`}
               className="w-full h-full object-cover"
             />
@@ -70,8 +81,8 @@ const PropertyCarousel: React.FC<PropertyCarouselProps> = ({ images, title }) =>
             onClick={() => goToSlide(index)}
             className={`w-2 h-2 rounded-full transition-all ${
               index === currentIndex
-                ? 'bg-white w-4'
-                : 'bg-white/50 hover:bg-white/75'
+                ? "bg-white w-4"
+                : "bg-white/50 hover:bg-white/75"
             }`}
             aria-label={`Aller à l'image ${index + 1}`}
           />

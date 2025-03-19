@@ -185,6 +185,7 @@ const Properties = () => {
                 <PropertyCarousel
                   images={property.images.map((img) => urlFor(img).url())}
                   title={localize(property, "title")}
+                  onCarouselClick={(e) => e.stopPropagation()}
                 />
                 <div className="absolute top-4 left-4 z-10">
                   <div
