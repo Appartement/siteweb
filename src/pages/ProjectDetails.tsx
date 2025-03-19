@@ -139,7 +139,7 @@ const ProjectDetails = () => {
   };
 
   return (
-    <div className="bg-white pt-28">
+    <div className="bg-white pt-36">
       {/* Navigation */}
       <div className="max-w-7xl mx-auto px-4 mb-8">
         <button
@@ -152,7 +152,7 @@ const ProjectDetails = () => {
       </div>
 
       {/* Hero Section */}
-      <div className="relative h-[70vh] overflow-hidden">
+      <div className="relative h-[50vh] overflow-hidden">
         <ProjectCarousel
           images={galleryImages}
           title={localize("title")}
