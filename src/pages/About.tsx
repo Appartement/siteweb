@@ -57,7 +57,9 @@ const About = () => {
               <h2 className="text-3xl font-light tracking-wide mb-4">
                 {t("about.historyTitle")}
               </h2>
-              <p className="text-gray-600 font-light">{t("historyPeriod")}</p>
+              <p className="text-gray-600 font-light">
+                {t("about.historyPeriod")}
+              </p>
             </div>
             <p className="text-gray-600 font-light mb-6 leading-relaxed">
               {t("about.historyText1")}
@@ -250,7 +252,7 @@ const About = () => {
               <blockquote className="text-gray-600 font-light mb-4">
                 {t("about.testimonial1.content")}
               </blockquote>
-              <p className="font-medium">{t("testimonial1.author")}</p>
+              <p className="font-medium">{t("about.testimonial1.author")}</p>
               <p className="text-gray-600 font-light">
                 {t("about.testimonial1.location")}
               </p>
@@ -269,7 +271,7 @@ const About = () => {
               <blockquote className="text-gray-600 font-light mb-4">
                 {t("about.testimonial2.content")}
               </blockquote>
-              <p className="font-medium">{t("testimonial2.author")}</p>
+              <p className="font-medium">{t("about.testimonial2.author")}</p>
               <p className="text-gray-600 font-light">
                 {t("about.testimonial2.location")}
               </p>
@@ -288,7 +290,7 @@ const About = () => {
               <blockquote className="text-gray-600 font-light mb-4">
                 {t("about.testimonial3.content")}
               </blockquote>
-              <p className="font-medium">{t("testimonial3.author")}</p>
+              <p className="font-medium">{t("about.testimonial3.author")}</p>
               <p className="text-gray-600 font-light">
                 {t("about.testimonial3.location")}
               </p>
