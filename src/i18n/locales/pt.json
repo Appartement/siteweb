@@ -209,6 +209,13 @@
   "contact": {
     "title": "CONTACTE-NOS",
     "subtitle": "Vamos discutir o seu projeto",
+    "propertyInfoHeader": "Informações sobre o imóvel",
+    "propertyRef": "Referência do imóvel",
+    "propertyTitle": "Título do imóvel",
+    "propertyType": "Tipo de imóvel",
+    "propertyLocation": "Localização",
+    "propertyPrice": "Preço",
+    "messageHeader": "Sua mensagem",
     "form": {
       "name": "Nome Completo",
       "email": "Email",

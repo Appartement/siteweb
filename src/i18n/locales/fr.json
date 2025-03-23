@@ -187,6 +187,13 @@
   },
   "contact": {
     "title": "NOUS CONTACTER",
+    "propertyInfoHeader": "Informations sur le bien",
+    "propertyRef": "Référence du bien",
+    "propertyTitle": "Titre du bien",
+    "propertyType": "Type de bien",
+    "propertyLocation": "Localisation",
+    "propertyPrice": "Prix",
+    "messageHeader": "Votre message",
     "form": {
       "project_type": "TYPE DE PROJET",
       "name": "NOM COMPLET",

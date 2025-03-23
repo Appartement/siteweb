@@ -377,6 +377,13 @@
     "subtitle": "Let's discuss your project",
     "titleSection": "Contact us",
     "descriptionSection": "We are at your disposal to answer your questions and help you with your real estate project.",
+    "propertyInfoHeader": "Property information",
+    "propertyRef": "Reference",
+    "propertyTitle": "Request a visit",
+    "propertyType": "Property type",
+    "propertyLocation": "Property location",
+    "propertyPrice": " Budget",
+    "messageHeader": "Your message",
     "form": {
       "name": "Full Name",
       "email": "Email",
