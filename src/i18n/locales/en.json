@@ -161,7 +161,7 @@
     "sectionTitle": "OUR MISSION",
     "standards": {
       "title": "STANDARDS",
-      "subtitle": "Guaranteed Quality",
+      "subtitle": "Excellence guaranteed",
       "backItems": [
         "Strict standards",
         "Premium materials",
@@ -181,7 +181,7 @@
     },
     "management": {
       "title": "MANAGEMENT",
-      "subtitle": "Comprehensive Monitoring",
+      "subtitle": "Coordination",
       "backItems": [
         "Detailed planning",
         "Site supervision",
@@ -256,16 +256,11 @@
     "rent": {
       "title": "RENT",
       "subtitle": "Rigorous monitoring",
-      "backItems": [
-        "Collection",
-        "Reminders",
-        "Accounting",
-        "Reporting"
-      ]
+      "backItems": ["Collection", "Reminders", "Accounting", "Reporting"]
     },
     "technical": {
-      "title": "TECHNICAL",
-      "subtitle": "Professional maintenance",
+      "title": "HANDLING",
+      "subtitle": "Technical assistance",
       "backItems": [
         "Regular visits",
         "Preventive maintenance",
@@ -321,7 +316,7 @@
     }
   },
   "properties": {
-    "title": "FEATURED PROPERTIES",
+    "title": "Our goods",
     "heroSubtitle": "Discover our selection of properties for sale and rent",
     "monthly": "Monthly",
     "all": "All types",
@@ -406,21 +401,11 @@
     "tagline": "Real estate excellence and sustainable innovation in Lisbon",
     "studio": {
       "title": "STUDIO",
-      "items": [
-        "Our Vision",
-        "The Team",
-        "Careers",
-        "News"
-      ]
+      "items": ["Our Vision", "The Team", "Careers", "News"]
     },
     "services": {
       "title": "SERVICES",
-      "items": [
-        "Real Estate",
-        "Renovation",
-        "Management",
-        "Consulting"
-      ]
+      "items": ["Real Estate", "Renovation", "Management", "Consulting"]
     },
     "contact": {
       "title": "CONTACT",

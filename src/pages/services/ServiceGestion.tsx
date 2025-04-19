@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Shield, LineChart, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import heroUrl from "../../assets/gestion.jpeg";
 
 const ServiceGestion = () => {
   const { t } = useTranslation();
@@ -13,11 +14,12 @@ const ServiceGestion = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage:
-              'url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80")',
+            backgroundImage: `url(${heroUrl})`,
+            filter: "grayscale(0.2)", // 👈 This adds grayscale directly
           }}
         >
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+          {/* 👈 This darkens it more */}
         </div>
         <div className="relative h-full flex items-center justify-center text-center">
           <div className="max-w-4xl px-4">

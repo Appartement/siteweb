@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Mail, Phone } from "lucide-react";
+import heroUrl from "../assets/contact-us.jpeg";
 
 interface LocationState {
   propertyId?: number;
@@ -109,12 +110,11 @@ ${t("contact.messageHeader")} : `
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative h-[40vh] overflow-hidden">
+      <div className="relative h-[60vh] overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-[center_25%]"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage:
-              'url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80")',
+            backgroundImage: `url(${heroUrl})`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -144,6 +144,7 @@ ${t("contact.messageHeader")} : `
                   alt="Laure Fargeot"
                   className="w-full h-full object-cover object-[center_35%] grayscale"
                   style={{ filter: "grayscale(100%)" }}
+                  referrerPolicy="no-referrer"
                 />
               </div>
               <div>
@@ -181,6 +182,7 @@ ${t("contact.messageHeader")} : `
                   src="https://lh3.googleusercontent.com/pw/AP1GczMoPC7wL3fjpeqeGavP6u9sR7XWEM8ERoyVHigKEiT10GLD1cOH4vImr_jGMz1rgu21EVKFruRKe1pCjrcArwmPnu2Nyx6WGjSEAzXCMpEPfjqxjXnqWc0DdYZvpgXYCF9XsmdfgxoGltrlhVWPDtEw?w850-h1280-s-no-gm?authuser=0"
                   alt="Jean-Emmanuel Salvado"
                   className="w-full h-full object-cover object-top"
+                  referrerPolicy="no-referrer"
                 />
               </div>
               <div>

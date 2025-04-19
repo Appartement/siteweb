@@ -61,6 +61,7 @@ const Navbar = () => {
                 src="https://lh3.googleusercontent.com/pw/AP1GczPlEPvp-vf3JZqy4iEf-yCEHQ_iyLvc6gayOdorO8PgZKlrkgm24oakyoXPEzMphdGMW8eTSK6PYZrSjUJffxXhsbJGhGCFxq2jDnlfKf8wwPmsPiABzwq9sudDTo6WTv9PVvyRJRDCdEElt5bFP8VB=w350-h234-s-no-gm?authuser=0"
                 alt="Logo L'Appartement - Agence immobilière de luxe à Lisbonne spécialisée dans la transaction, rénovation et gestion locative"
                 className={`h-12 md:h-20 w-auto transition-all duration-300 ${logoFilter}`}
+                referrerPolicy="no-referrer"
               />
             </Link>
 

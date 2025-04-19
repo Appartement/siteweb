@@ -192,6 +192,13 @@ const IMTCalculator = () => {
             </div>
           )}
         </div>
+        <div className="mt-4 text-center text-sm text-gray-500">
+          <p>
+            {i18n.language.includes("fr") && "Janvier 2025 - taux AT - %"}
+            {i18n.language.includes("en") && "January 2025 - AT rate - %"}
+            {i18n.language.includes("pt") && "Janeiro de 2025 - taxa AT - %"}
+          </p>
+        </div>
       </div>
     </section>
   );

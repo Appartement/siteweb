@@ -11,6 +11,7 @@ import {
   Camera as Camera360,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import heroUrl from "../../assets/renovation-hero.jpeg";
 
 const ServiceRenovation = () => {
   const { t } = useTranslation();
@@ -22,8 +23,7 @@ const ServiceRenovation = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage:
-              'url("https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80")',
+            backgroundImage: `url(${heroUrl})`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>

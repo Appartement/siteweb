@@ -36,6 +36,7 @@ const Navbar = () => {
                 className={`h-20 w-auto transition-all duration-300 ${
                   isScrolled ? "brightness-0" : "brightness-100"
                 }`}
+                referrerPolicy="no-referrer"
               />
             </Link>
           </div>

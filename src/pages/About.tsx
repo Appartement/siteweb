@@ -2,6 +2,7 @@ import React from "react";
 import {
   Linkedin,
   Facebook,
+  Instagram,
   MapPin,
   Phone,
   Mail,
@@ -9,6 +10,7 @@ import {
   Star,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import heroUrl from "../assets/aboutus.jpeg";
 
 const About = () => {
   const { t } = useTranslation();
@@ -20,8 +22,7 @@ const About = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage:
-              'url("https://lh3.googleusercontent.com/pw/AP1GczNTH6zpNlQxxQ9YY_jXFwVfQWSVEtlUILc2IvQPx_vWy6YO8FwVJy6cB0EaaaY9hR-s6pdMajqXfJvSpXXZkuewmz-j56XGraNFNA=w2939-h1636-s-no-gm?authuser=0")',
+            backgroundImage: `url(${heroUrl})`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -108,7 +109,8 @@ const About = () => {
                   <img
                     src="https://lh3.googleusercontent.com/pw/AP1GczPd5D9nl5I6_cW4prDEmR_Bp_QoeK-U0IyN9r2Sp0Sv1lU46rK5B_abBuumdjNWJWdw6RRUaggwRjPwa1dqNnTncBRNP9cZh9SbO_aN17_Dkl7hfXtYuKhKeWFCBeCvf2KGz2AR2Iisq8-oTrJaXdJK=w1111-h1280-s-no-gm?authuser=0"
                     alt={t("founderLaure.alt")}
-                    className="w-full h-full object-cover object-[center_60%] transform group-hover:scale-110 transition-transform duration-500 grayscale"
+                    className="w-full h-full  object-cover object-[center_60%] object-top transform group-hover:scale-110 transition-transform duration-500 grayscale"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -121,12 +123,12 @@ const About = () => {
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://www.facebook.com/Lololouu"
+                    href="https://www.instagram.com/lappartement_interiordesign"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-600 p-2 rounded-full text-white hover:bg-blue-700 transition-colors"
                   >
-                    <Facebook className="h-5 w-5" />
+                    <Instagram className="h-5 w-5" />
                   </a>
                 </div>
               </div>
@@ -168,6 +170,7 @@ const About = () => {
                     src="https://lh3.googleusercontent.com/pw/AP1GczMoPC7wL3fjpeqeGavP6u9sR7XWEM8ERoyVHigKEiT10GLD1cOH4vImr_jGMz1rgu21EVKFruRKe1pCjrcArwmPnu2Nyx6WGjSEAzXCMpEPfjqxjXnqWc0DdYZvpgXYCF9XsmdfgxoGltrlhVWPDtEw=w850-h1280-s-no-gm?authuser=0"
                     alt={t("about.founderJean.alt")}
                     className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-500"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -180,12 +183,12 @@ const About = () => {
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://www.facebook.com/je.salvado"
+                    href="https://www.instagram.com/lappartement_interiordesign"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-600 p-2 rounded-full text-white hover:bg-blue-700 transition-colors"
                   >
-                    <Facebook className="h-5 w-5" />
+                    <Instagram className="h-5 w-5" />
                   </a>
                 </div>
               </div>

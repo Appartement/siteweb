@@ -17,7 +17,7 @@ const Calculator = () => {
     const calcul = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
     setMensualite(Math.round(calcul * 100) / 100);
   };
-
+  console.log({ lng: i18n.language });
   // Détermine la locale selon la langue active
   const locale =
     i18n.language === "fr"
@@ -100,6 +100,14 @@ const Calculator = () => {
             </div>
           )}
         </div>
+      </div>
+      <div className="mt-4 text-center text-sm text-gray-500">
+        <p>
+          {i18n.language.includes("fr") && "Janvier 2025 - taux INE - 3,978%"}
+          {i18n.language.includes("en") && "January 2025 - INE rate - 3.978%"}
+          {i18n.language.includes("pt") &&
+            "Janeiro de 2025 - taxa INE - 3,978%"}
+        </p>
       </div>
     </section>
   );

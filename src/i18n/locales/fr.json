@@ -134,7 +134,7 @@
     }
   },
   "properties": {
-    "title": "BIENS À LA UNE",
+    "title": "Nos biens",
     "heroSubtitle": "Découvrez nos biens à la vente et à la location",
     "monthly": "Mois",
     "all": "Tous les types",
@@ -414,7 +414,7 @@
     "sectionTitle": "NOTRE MISSION",
     "standards": {
       "title": "STANDARDS",
-      "subtitle": "Qualité garantie",
+      "subtitle": "Excellence garantie",
       "backItems": [
         "Normes strictes",
         "Matériaux premium",
@@ -434,7 +434,7 @@
     },
     "management": {
       "title": "GESTION",
-      "subtitle": "Suivi complet",
+      "subtitle": "Coordination",
       "backItems": [
         "Planning détaillé",
         "Suivi chantier",
@@ -445,12 +445,7 @@
     "delivery": {
       "title": "LIVRAISON",
       "subtitle": "Clé en main",
-      "backItems": [
-        "Contrôle final",
-        "Nettoyage",
-        "Documentation",
-        "Garanties"
-      ]
+      "backItems": ["Contrôle final", "Nettoyage", "Documentation", "Garanties"]
     },
     "completeRenovation": {
       "title": "RÉNOVATION COMPLÈTE",
@@ -509,16 +504,11 @@
     "rent": {
       "title": "LOYERS",
       "subtitle": "Suivi rigoureux",
-      "backItems": [
-        "Encaissement",
-        "Relances",
-        "Comptabilité",
-        "Reporting"
-      ]
+      "backItems": ["Encaissement", "Relances", "Comptabilité", "Reporting"]
     },
     "technical": {
-      "title": "TECHNIQUE",
-      "subtitle": "Maintenance professionnelle",
+      "title": "MANUTENTION",
+      "subtitle": "Assistance technique",
       "backItems": [
         "Visites régulières",
         "Entretien préventif",

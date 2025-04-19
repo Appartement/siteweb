@@ -155,7 +155,7 @@
     }
   },
   "properties": {
-    "title": "IMÓVEIS EM DESTAQUE",
+    "title": "Os nossos produtos",
     "heroSubtitle": "Descubra nossas ofertas de imóveis em Lisboa",
     "monthly": "Mês",
     "all": "Todos os tipos",
@@ -363,7 +363,7 @@
     "sectionTitle": "NOSSA MISSÃO",
     "standards": {
       "title": "PADRÕES",
-      "subtitle": "Qualidade garantida",
+      "subtitle": "Excelência garantida",
       "backItems": [
         "Padrões rigorosos",
         "Materiais premium",
@@ -383,7 +383,7 @@
     },
     "management": {
       "title": "GESTÃO",
-      "subtitle": "Acompanhamento completo",
+      "subtitle": "Coordenação",
       "backItems": [
         "Planejamento detalhado",
         "Supervisão de obra",
@@ -394,12 +394,7 @@
     "delivery": {
       "title": "ENTREGA",
       "subtitle": "Chave na mão",
-      "backItems": [
-        "Inspeção final",
-        "Limpeza",
-        "Documentação",
-        "Garantias"
-      ]
+      "backItems": ["Inspeção final", "Limpeza", "Documentação", "Garantias"]
     },
     "completeRenovation": {
       "title": "RENOVAÇÃO COMPLETA",
@@ -458,16 +453,11 @@
     "rent": {
       "title": "ALUGUÉIS",
       "subtitle": "Acompanhamento rigoroso",
-      "backItems": [
-        "Cobrança",
-        "Lembretes",
-        "Contabilidade",
-        "Relatórios"
-      ]
+      "backItems": ["Cobrança", "Lembretes", "Contabilidade", "Relatórios"]
     },
     "technical": {
-      "title": "TÉCNICA",
-      "subtitle": "Manutenção profissional",
+      "title": "MANUSEIO",
+      "subtitle": "Assistência técnica",
       "backItems": [
         "Visitas regulares",
         "Manutenção preventiva",
@@ -478,12 +468,7 @@
     "departure": {
       "title": "PARTIDA",
       "subtitle": "Transição suave",
-      "backItems": [
-        "Vistoria",
-        "Depósito de garantia",
-        "Restauro",
-        "Devolução"
-      ]
+      "backItems": ["Vistoria", "Depósito de garantia", "Restauro", "Devolução"]
     },
     "details": {
       "managementTitle": "GESTÃO DE PROPRIEDADE",

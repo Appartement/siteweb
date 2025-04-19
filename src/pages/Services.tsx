@@ -15,29 +15,43 @@ import {
   Ruler,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import heroUrl from "../assets/our-services-hero.jpeg";
+import heroUrlEdited from "../assets/our-services-hero-edited.jpeg";
 
 const Services = () => {
   const { t } = useTranslation();
 
+  React.useEffect(() => {
+    const hash = window.location.hash;
+    console.log({ hash });
+    if (hash) {
+      // Wait for the DOM to be ready (optional but sometimes useful)
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 0);
+    }
+  }, []);
+
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative h-[60vh] overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              'url("https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&q=80")',
-          }}
-        >
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-        </div>
-        <div className="relative h-full flex items-center justify-center text-center">
-          <div className="max-w-4xl px-4">
-            <h1 className="text-5xl font-light text-white mb-6 tracking-wider">
+      <div className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] overflow-hidden">
+        <img
+          src={heroUrl}
+          alt="Hero"
+          className="absolute inset-0 w-full h-full object-cover object-left"
+        />
+        f{/* Optional dark overlay */}
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative h-full flex items-center justify-center text-center px-4">
+          <div className="max-w-4xl">
+            <h1 className="text-4xl sm:text-5xl font-light text-white mb-6 tracking-wider">
               {t("services.heroTitle")}
             </h1>
-            <p className="text-xl text-white font-light tracking-wide max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-white font-light tracking-wide max-w-2xl mx-auto">
               {t("services.heroSubtitle")}
             </p>
           </div>
@@ -149,7 +163,7 @@ const Services = () => {
       </div>
 
       {/* Section Matterport */}
-      <div className="py-24 bg-white">
+      <div className="py-24 bg-white" id="virtual-tour-service">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl font-light text-center mb-16 tracking-wider">
             {t("services.matterport.title")}

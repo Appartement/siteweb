@@ -246,16 +246,19 @@ const ServiceTransaction = () => {
           <h2 className="text-3xl font-light text-center mb-16 text-[#81a197]">
             {t("servicesPage.additional.title")}
           </h2>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div className="bg-white p-8 rounded-lg shadow-lg border border-[#81a197]/20 hover:border-[#81a197] transition-all hover:shadow-xl">
-              <Camera360 className="h-12 w-12 text-[#81a197] mb-6" />
-              <h3 className="text-xl font-light mb-4 text-[#81a197]">
-                {t("servicesPage.additional.virtualTour.title")}
-              </h3>
-              <p className="text-gray-600 font-light mb-6">
-                {t("servicesPage.additional.virtualTour.description")}
-              </p>
-            </div>
+            <Link to="/services#virtual-tour-service">
+              <div className="bg-white p-8 rounded-lg shadow-lg border border-[#81a197]/20 hover:border-[#81a197] transition-all hover:shadow-xl">
+                <Camera360 className="h-12 w-12 text-[#81a197] mb-6" />
+                <h3 className="text-xl font-light mb-4 text-[#81a197]">
+                  {t("servicesPage.additional.virtualTour.title")}
+                </h3>
+                <p className="text-gray-600 font-light mb-6">
+                  {t("servicesPage.additional.virtualTour.description")}
+                </p>
+              </div>
+            </Link>
             <div className="bg-white p-8 rounded-lg shadow-lg border border-[#81a197]/20 hover:border-[#81a197] transition-all hover:shadow-xl">
               <Euro className="h-12 w-12 text-[#81a197] mb-6" />
               <h3 className="text-xl font-light mb-4 text-[#81a197]">
