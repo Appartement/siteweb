@@ -53,7 +53,7 @@ const ServiceGestion = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#a2a09c]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceGestion.tenant.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -82,7 +82,7 @@ const ServiceGestion = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#a2a09c]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceGestion.rent.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -111,7 +111,7 @@ const ServiceGestion = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#a2a09c]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceGestion.technical.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -140,7 +140,7 @@ const ServiceGestion = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#a2a09c]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceGestion.departure.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">

@@ -60,7 +60,7 @@ const ServiceRenovation = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#8ba2bb]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceRenovation.standards.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -89,7 +89,7 @@ const ServiceRenovation = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#8ba2bb]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceRenovation.design.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -118,7 +118,7 @@ const ServiceRenovation = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#8ba2bb]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceRenovation.management.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -147,7 +147,7 @@ const ServiceRenovation = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#8ba2bb]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("serviceRenovation.delivery.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">

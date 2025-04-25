@@ -52,7 +52,7 @@ const ServiceTransaction = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#81a197]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("servicesPage.transaction.buy.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -83,7 +83,7 @@ const ServiceTransaction = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#81a197]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("servicesPage.transaction.sell.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -114,7 +114,7 @@ const ServiceTransaction = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#81a197]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("servicesPage.transaction.rent.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
@@ -145,7 +145,7 @@ const ServiceTransaction = () => {
                 {/* Front */}
                 <div className="absolute inset-0">
                   <div className="h-full bg-[#81a197]/60 rounded-lg p-8 flex flex-col items-center justify-center text-center">
-                    <h3 className="text-3xl font-light text-white mb-4 drop-shadow-md">
+                    <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("servicesPage.transaction.invest.title")}
                     </h3>
                     <p className="text-white font-light drop-shadow-md">
