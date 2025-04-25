@@ -55,7 +55,6 @@ const ServiceTransaction = () => {
                     <h3 className="text-xl lg:text-3xl font-light text-white mb-4 drop-shadow-md">
                       {t("servicesPage.transaction.buy.title")}
                     </h3>
-                    <div className="hidden"></div>
                     <p className="text-white font-light drop-shadow-md">
                       {t("servicesPage.transaction.buy.subtitle")}
                     </p>
