@@ -38,7 +38,7 @@ const Services = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] overflow-hidden">
+      <div className="relative h-[60vh] overflow-hidden">
         <img
           src={heroUrl}
           alt="Hero"

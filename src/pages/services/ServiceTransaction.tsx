@@ -8,7 +8,7 @@ const ServiceTransaction = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative h-[40vh] md:h-[60vh] overflow-hidden">
+      <div className="relative h-[60vh] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-[center_25%] md:bg-center"
           style={{
