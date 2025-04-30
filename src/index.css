@@ -10,6 +10,7 @@
 
   body {
     @apply antialiased;
+    font-family: "Roboto", sans-serif;
   }
 
   /* Responsive typography */
