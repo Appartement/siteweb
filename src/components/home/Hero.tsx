@@ -26,10 +26,10 @@ const Hero = () => {
 
       <div className="relative h-full flex items-center justify-center text-center px-4 z-20">
         <div className="max-w-4xl">
-          <h1 className="text-4xl sm:text-6xl md:text-7xl font-light text-white mb-6 md:mb-8 tracking-[0.2em]">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-normal text-white mb-6 md:mb-8 tracking-[0.2em]">
             L'APPARTEMENT
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-white mb-8 md:mb-12 font-light tracking-[0.2em] uppercase">
+          <p className="text-lg sm:text-xl md:text-2xl text-white mb-8 md:mb-12 font-normal tracking-[0.2em] uppercase">
             {t("hero.subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">

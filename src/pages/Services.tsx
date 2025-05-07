@@ -48,10 +48,10 @@ const Services = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl font-light text-white mb-6 tracking-wider">
+            <h1 className="text-4xl sm:text-5xl font-normal text-white mb-6 tracking-wider">
               {t("services.heroTitle")}
             </h1>
-            <p className="text-lg sm:text-xl text-white font-light tracking-wide max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-white font-normal tracking-wide max-w-2xl mx-auto">
               {t("services.heroSubtitle")}
             </p>
           </div>
