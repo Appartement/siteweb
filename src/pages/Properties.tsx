@@ -103,7 +103,7 @@ const Properties = () => {
             <h1 className="text-5xl font-normal text-white mb-6 tracking-wider uppercase">
               {t("properties.title")}
             </h1>
-            <p className="text-xl text-white font-normal tracking-wide max-w-2xl mx-auto uppercase">
+            <p className="text-xl text-white font-normal tracking-wide max-w-2xl mx-auto">
               {t("properties.heroSubtitle")}
             </p>
           </div>
