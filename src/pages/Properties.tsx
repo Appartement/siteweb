@@ -100,10 +100,10 @@ const Properties = () => {
         </div>
         <div className="relative h-full flex items-center justify-center text-center">
           <div className="max-w-4xl px-4">
-            <h1 className="text-5xl font-normal text-white mb-6 tracking-wider">
+            <h1 className="text-5xl font-normal text-white mb-6 tracking-wider uppercase">
               {t("properties.title")}
             </h1>
-            <p className="text-xl text-white font-normal tracking-wide max-w-2xl mx-auto">
+            <p className="text-xl text-white font-normal tracking-wide max-w-2xl mx-auto uppercase">
               {t("properties.heroSubtitle")}
             </p>
           </div>
