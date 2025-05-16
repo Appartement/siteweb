@@ -86,16 +86,16 @@ const PropertyDetails = () => {
     const lang = i18n.language;
     if (field === "features") {
       if (lang === "en") {
-        return property.features_en && property.features_en.length > 0
-          ? property.features_en
-          : property.features;
+        return property?.features_en && property?.features_en.length > 0
+          ? property?.features_en
+          : property?.features;
       }
       if (lang === "pt") {
-        return property.features_pt && property.features_pt.length > 0
-          ? property.features_pt
-          : property.features;
+        return property?.features_pt && property?.features_pt.length > 0
+          ? property?.features_pt
+          : property?.features;
       }
-      return property.features;
+      return property?.features;
     } else {
       if (lang === "en") {
         return (property as any)[`${field}_en`] || (property as any)[field];
@@ -110,11 +110,11 @@ const PropertyDetails = () => {
   const handleContactClick = () => {
     navigate("/contact", {
       state: {
-        propertyId: property._id,
+        propertyId: property?._id,
         propertyTitle: localize("title"),
-        propertyType: property.type,
-        propertyLocation: property.location,
-        propertyPrice: property.price,
+        propertyType: property?.type,
+        propertyLocation: property?.location,
+        propertyPrice: property?.price,
       },
     });
   };
@@ -139,11 +139,13 @@ const PropertyDetails = () => {
           <div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <PropertyCarousel
-                images={property.images.map((img) => urlFor(img).url())}
+                images={property?.images
+                  ?.filter((img) => img?.asset?._ref)
+                  ?.map((img) => urlFor(img).url())}
                 title={localize("title")}
               />
               <div className="absolute top-4 left-4 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-light z-10">
-                {property.type === "vente"
+                {property?.type === "vente"
                   ? t("projectDetails.forSale")
                   : t("projectDetails.forRent")}
               </div>
@@ -155,15 +157,15 @@ const PropertyDetails = () => {
             <h1 className="text-4xl font-light mb-4">{localize("title")}</h1>
             <div className="flex items-center text-gray-600 mb-6">
               <MapPin className="h-5 w-5 mr-2" />
-              <span className="font-light text-lg">{property.location}</span>
+              <span className="font-light text-lg">{property?.location}</span>
             </div>
 
             <div className="flex items-center mb-8">
               <Euro className="h-6 w-6 text-blue-600 mr-2" />
               <span className="text-3xl font-semibold text-blue-600">
-                {property.type === "vente"
-                  ? property.price.toLocaleString("fr-FR")
-                  : `${property.price.toLocaleString("fr-FR")}/${t(
+                {property?.type === "vente"
+                  ? property?.price?.toLocaleString("fr-FR")
+                  : `${property?.price?.toLocaleString("fr-FR")}/${t(
                       "properties.monthly"
                     )}`}
               </span>
@@ -176,7 +178,7 @@ const PropertyDetails = () => {
                   {t("projectDetails.bedrooms")}
                 </span>
                 <span className="block text-lg font-medium">
-                  {property.bedrooms}
+                  {property?.bedrooms}
                 </span>
               </div>
               <div className="text-center">
@@ -185,7 +187,7 @@ const PropertyDetails = () => {
                   {t("projectDetails.bathrooms")}
                 </span>
                 <span className="block text-lg font-medium">
-                  {property.bathrooms}
+                  {property?.bathrooms}
                 </span>
               </div>
               <div className="text-center">
@@ -194,7 +196,7 @@ const PropertyDetails = () => {
                   {t("projectDetails.area")}
                 </span>
                 <span className="block text-lg font-medium">
-                  {property.surface} m²
+                  {property?.surface} m²
                 </span>
               </div>
             </div>
