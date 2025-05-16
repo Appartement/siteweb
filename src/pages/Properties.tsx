@@ -35,7 +35,6 @@ type Property = {
 const Properties = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const [loading, setLoading] = useState(false);
   const [properties, setProperties] = useState<Property[]>([]);
   const [propertyType, setPropertyType] = useState<
     "all" | "vente" | "location"
@@ -61,19 +60,15 @@ const Properties = () => {
 
   useEffect(() => {
     const query = '*[_type == "property"]';
-    setLoading(true);
     client
       .fetch(query)
-      .then((data: Property[]) => {
-        setProperties(data);
-        setLoading(false);
-      })
+      .then((data: Property[]) => setProperties(data))
       .catch(console.error);
   }, []);
 
   const filteredProperties = properties
     .filter(
-      (property) => propertyType === "all" || property?.type === propertyType
+      (property) => propertyType === "all" || property.type === propertyType
     )
     .sort((a, b) => {
       switch (sortBy) {
@@ -89,8 +84,6 @@ const Properties = () => {
           return 0;
       }
     });
-  console.log({ filteredProperties });
-  if (loading) return null;
 
   return (
     <div className="bg-white">
@@ -180,31 +173,29 @@ const Properties = () => {
       {/* Properties Grid */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProperties?.map((property) => (
+          {filteredProperties.map((property) => (
             <div
-              key={property?._id}
+              key={property._id}
               className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <div
                 className="relative cursor-pointer"
-                onClick={() => navigate(`/biens/${property?._id}`)}
+                onClick={() => navigate(`/biens/${property._id}`)}
               >
                 <PropertyCarousel
-                  images={property?.images
-                    ?.filter((img) => img?.asset?._ref)
-                    ?.map((img) => urlFor(img).url())}
+                  images={property.images.map((img) => urlFor(img).url())}
                   title={localize(property, "title")}
                   onCarouselClick={(e) => e.stopPropagation()}
                 />
                 <div className="absolute top-4 left-4 z-10">
                   <div
                     className={`px-4 py-2 rounded-lg text-sm font-light ${
-                      property?.type === "vente"
+                      property.type === "vente"
                         ? "bg-blue-600 text-white"
                         : "bg-[#81a197] text-white"
                     }`}
                   >
-                    {property?.type === "vente"
+                    {property.type === "vente"
                       ? t("properties.for_sale")
                       : t("properties.for_rent")}
                   </div>
@@ -213,41 +204,41 @@ const Properties = () => {
               <div className="p-6">
                 <h3
                   className="text-xl font-light mb-2 cursor-pointer hover:text-blue-600 transition-colors"
-                  onClick={() => navigate(`/biens/${property?._id}`)}
+                  onClick={() => navigate(`/biens/${property._id}`)}
                 >
                   {localize(property, "title")}
                 </h3>
                 <div className="flex items-center text-gray-600 mb-4">
                   <MapPin className="h-4 w-4 mr-2" />
-                  <span className="font-light">{property?.location}</span>
+                  <span className="font-light">{property.location}</span>
                 </div>
                 <div className="grid grid-cols-3 gap-4 mb-6">
                   <div className="flex items-center text-gray-600">
                     <BedDouble className="h-4 w-4 mr-2" />
-                    <span className="font-light">{property?.bedrooms}</span>
+                    <span className="font-light">{property.bedrooms}</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Bath className="h-4 w-4 mr-2" />
-                    <span className="font-light">{property?.bathrooms}</span>
+                    <span className="font-light">{property.bathrooms}</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Maximize className="h-4 w-4 mr-2" />
-                    <span className="font-light">{property?.surface} m²</span>
+                    <span className="font-light">{property.surface} m²</span>
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <Euro className="h-5 w-5 text-blue-600 mr-1" />
                     <span className="text-xl font-semibold text-blue-600">
-                      {property?.type === "vente"
-                        ? property?.price?.toLocaleString("fr-FR")
-                        : `${property?.price?.toLocaleString("fr-FR")} / ${t(
+                      {property.type === "vente"
+                        ? property.price.toLocaleString("fr-FR")
+                        : `${property.price.toLocaleString("fr-FR")} / ${t(
                             "properties.monthly"
                           )}`}
                     </span>
                   </div>
                   <button
-                    onClick={() => navigate(`/biens/${property?._id}`)}
+                    onClick={() => navigate(`/biens/${property._id}`)}
                     className="bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-colors font-light"
                   >
                     {t("properties.details")}
