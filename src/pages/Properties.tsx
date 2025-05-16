@@ -35,6 +35,7 @@ type Property = {
 const Properties = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
   const [properties, setProperties] = useState<Property[]>([]);
   const [propertyType, setPropertyType] = useState<
     "all" | "vente" | "location"
@@ -60,9 +61,13 @@ const Properties = () => {
 
   useEffect(() => {
     const query = '*[_type == "property"]';
+    setLoading(true);
     client
       .fetch(query)
-      .then((data: Property[]) => setProperties(data))
+      .then((data: Property[]) => {
+        setProperties(data);
+        setLoading(false);
+      })
       .catch(console.error);
   }, []);
 
@@ -84,6 +89,8 @@ const Properties = () => {
           return 0;
       }
     });
+  console.log({ filteredProperties });
+  if (loading) return null;
 
   return (
     <div className="bg-white">
@@ -173,7 +180,7 @@ const Properties = () => {
       {/* Properties Grid */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProperties.map((property) => (
+          {filteredProperties?.map((property) => (
             <div
               key={property._id}
               className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
@@ -183,7 +190,9 @@ const Properties = () => {
                 onClick={() => navigate(`/biens/${property._id}`)}
               >
                 <PropertyCarousel
-                  images={property.images.map((img) => urlFor(img).url())}
+                  images={property?.images
+                    ?.filter((img) => img?.asset?._ref)
+                    ?.map((img) => urlFor(img).url())}
                   title={localize(property, "title")}
                   onCarouselClick={(e) => e.stopPropagation()}
                 />
