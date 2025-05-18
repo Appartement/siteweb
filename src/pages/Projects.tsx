@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import ProjectCarousel from "../components/ProjectCarousel";
 import client, { urlFor } from "../Lib/sanityClient";
+import { useFetchImages } from "../hooks/useGetImages";
 
 type Project = {
   _id: string;
@@ -34,7 +35,8 @@ const Projects = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [projects, setProjects] = useState<Project[]>([]);
-
+  const { images, loading, error } = useFetchImages();
+  console.log({ images });
   // Témoignages statiques (texte en anglais dans cet exemple, adaptez si besoin)
   const testimonials = [
     {
@@ -100,6 +102,14 @@ const Projects = () => {
     }
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-gray-600">{t("projectDetails.loading")}</p>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -107,8 +117,7 @@ const Projects = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage:
-              'url("https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80")',
+            backgroundImage: `url("${images.nosProjets}")`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>

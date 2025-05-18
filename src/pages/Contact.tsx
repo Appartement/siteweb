@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Mail, Phone } from "lucide-react";
 import heroUrl from "../assets/contact-us.jpeg";
-
+import { useFetchImages } from "../hooks/useGetImages";
 interface LocationState {
   propertyId?: number;
   propertyTitle?: string;
@@ -16,6 +16,8 @@ const Contact = () => {
   const { t } = useTranslation();
   const location = useLocation();
   const state = location.state as LocationState;
+
+  const { images, loading, error } = useFetchImages();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -107,6 +109,14 @@ ${t("contact.messageHeader")} : `
     });
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-gray-600">{t("projectDetails.loading")}</p>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -114,7 +124,7 @@ ${t("contact.messageHeader")} : `
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${heroUrl})`,
+            backgroundImage: `url(${images.contactUs})`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -140,7 +150,7 @@ ${t("contact.messageHeader")} : `
             <div className="flex items-start space-x-8">
               <div className="w-48 h-48 overflow-hidden rounded-lg">
                 <img
-                  src="https://lh3.googleusercontent.com/pw/AP1GczPd5D9nl5I6_cW4prDEmR_Bp_QoeK-U0IyN9r2Sp0Sv1lU46rK5B_abBuumdjNWJWdw6RRUaggwRjPwa1dqNnTncBRNP9cZh9SbO_aN17_Dkl7hfXtYuKhKeWFCBeCvf2KGz2AR2Iisq8-oTrJaXdJK=w1111-h1280-s-no-gm?authuser=0"
+                  src={images.laure}
                   alt="Laure Fargeot"
                   className="w-full h-full object-cover object-[center_35%] grayscale"
                   style={{ filter: "grayscale(100%)" }}
@@ -179,7 +189,7 @@ ${t("contact.messageHeader")} : `
             <div className="flex items-start space-x-8">
               <div className="w-48 h-48 overflow-hidden rounded-lg">
                 <img
-                  src="https://lh3.googleusercontent.com/pw/AP1GczMoPC7wL3fjpeqeGavP6u9sR7XWEM8ERoyVHigKEiT10GLD1cOH4vImr_jGMz1rgu21EVKFruRKe1pCjrcArwmPnu2Nyx6WGjSEAzXCMpEPfjqxjXnqWc0DdYZvpgXYCF9XsmdfgxoGltrlhVWPDtEw?w850-h1280-s-no-gm?authuser=0"
+                  src={images.jean}
                   alt="Jean-Emmanuel Salvado"
                   className="w-full h-full object-cover object-top"
                   referrerPolicy="no-referrer"

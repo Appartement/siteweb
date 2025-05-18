@@ -22,6 +22,13 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import LegalNotices from "./pages/LegalNotices";
 import NotFound from "./pages/NotFound";
 
+function GoTostudio() {
+  useEffect(() => {
+    window.location.href = "https://appartement.sanity.studio/";
+  }, []);
+  return;
+}
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -67,6 +74,8 @@ function App() {
               element={<PrivacyPolicy />}
             />
             <Route path="/mentions-legales" element={<LegalNotices />} />
+            <Route path="/studio" element={<GoTostudio />} />
+            <Route path="/studios" element={<GoTostudio />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

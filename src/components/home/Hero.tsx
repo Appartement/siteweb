@@ -8,11 +8,11 @@ const Hero = () => {
   return (
     <div className="relative h-[100vh]">
       <div className="absolute inset-0 bg-black">
-        <div className="absolute inset-0 bg-black/40 z-10"></div>
+        <div className="absolute inset-0 bg-black/20 z-10"></div>
         <div className="relative w-full h-full overflow-hidden">
           <div className="animate-fade-video">
             <video
-              className="w-full h-auto max-h-[600px] object-cover"
+              className="w-full h-auto  object-cover"
               src="/video.mp4"
               autoPlay
               muted
@@ -40,8 +40,14 @@ const Hero = () => {
               {t("hero.cta.contact")}
             </Link>
             <Link
+              to="/biens"
+              className="border-2 border-white text-white px-8 md:px-12 py-3 md:py-4 text-base md:text-lg tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300 uppercase"
+            >
+              {t("hero.cta.biens")}
+            </Link>
+            <Link
               to="/projets"
-              className="bg-white text-black px-8 md:px-12 py-3 md:py-4 text-base md:text-lg tracking-[0.2em] hover:bg-transparent hover:text-white hover:border-2 hover:border-white transition-all duration-300 uppercase"
+              className="border-2 border-white text-white px-8 md:px-12 py-3 md:py-4 text-base md:text-lg tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300 uppercase"
             >
               {t("hero.cta.projects")}
             </Link>

@@ -12,9 +12,19 @@ import {
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import heroUrl from "../../assets/renovation-hero.jpeg";
+import { useFetchImages } from "../../hooks/useGetImages";
 
 const ServiceRenovation = () => {
   const { t } = useTranslation();
+  const { images, loading, error } = useFetchImages();
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-gray-600">{t("projectDetails.loading")}</p>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-white">
@@ -23,7 +33,7 @@ const ServiceRenovation = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url(${heroUrl})`,
+            backgroundImage: `url(${images.photoRenovation})`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>

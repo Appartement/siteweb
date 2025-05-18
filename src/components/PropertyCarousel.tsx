@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface PropertyCarouselProps {
@@ -11,14 +11,15 @@ const PropertyCarousel: React.FC<PropertyCarouselProps> = ({
   title,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  const nextSlide = (e) => {
-    e.stopPropagation();
+  const nextSlide = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
-  const prevSlide = (e) => {
-    e.stopPropagation();
+  const prevSlide = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
     setCurrentIndex(
       (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
@@ -27,6 +28,16 @@ const PropertyCarousel: React.FC<PropertyCarouselProps> = ({
   const goToSlide = (index: number) => {
     setCurrentIndex(index);
   };
+
+  useEffect(() => {
+    intervalRef.current = setInterval(nextSlide, 3000);
+
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
+  }, [images.length]);
 
   return (
     <div className="relative h-[300px] group">
