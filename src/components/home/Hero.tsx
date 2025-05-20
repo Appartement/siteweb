@@ -33,12 +33,14 @@ const Hero = () => {
             {t("hero.subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
-            <Link
-              to="/contact"
-              className="border-2 border-white text-white px-8 md:px-12 py-3 md:py-4 text-base md:text-lg tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300 uppercase"
-            >
-              {t("hero.cta.contact")}
-            </Link>
+            {false && (
+              <Link
+                to="/contact"
+                className="border-2 border-white text-white px-8 md:px-12 py-3 md:py-4 text-base md:text-lg tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300 uppercase"
+              >
+                {t("hero.cta.contact")}
+              </Link>
+            )}
             <Link
               to="/biens"
               className="border-2 border-white text-white px-8 md:px-12 py-3 md:py-4 text-base md:text-lg tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300 uppercase"

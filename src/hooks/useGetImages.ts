@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import sanityClient, { urlFor } from "../lib/sanityClient";
+import sanityClient, { urlFor } from "../Lib/sanityClient";
 
 interface ImageData {
   photoRenovation: {
